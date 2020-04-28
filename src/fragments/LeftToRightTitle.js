@@ -3,7 +3,7 @@ import "../App.css";
 
 function RightToLeftTitle({ titleToInsert }) {
   return (
-    <div className="enInfoTitle">
+    <div>
       <h1 className="addTitleFont frontPageEnTitle">{titleToInsert}</h1>
     </div>
   );

@@ -45,7 +45,7 @@ html {
 }
 .textBoxCss {
   position: fixed;
-  top: 20%;
+  top: 5%;
   right: 4%;
   direction: rtl;
   display: grid;
@@ -132,19 +132,13 @@ html {
   left: 3%;
 }
 .infoEnText {
-  position: relative;
   font-family: Papyrus;
   font-size: 21px;
   text-align: left;
   line-height: 1.6;
-  overflow: scroll;
-  width: 44%;
-  height: 30%;
-}
-.enInfoTitle {
-  position: fixed;
-  top: 20%;
-  left: 51%;
+  /* overflow: scroll; */
+  /* width: 44%;
+  height: 30%; */
 }
 .image-text-container {
   position: fixed;
@@ -178,18 +172,12 @@ html {
   margin-right: -20px;
 }
 .infoHeText {
-  position: fixed;
-  top: 26%;
-  right: 4%;
   font-family: Papyrus;
   font-size: 19px;
   text-align: right;
   line-height: 1.6;
-  overflow: scroll;
   direction: rtl;
   white-space: pre-line;
-  width: 44%;
-  height: 57%;
 }
 .addMargin {
   margin-right: 15px;
@@ -216,12 +204,67 @@ html {
 }
 .map-circle-heb{
   position: fixed;
-  bottom: 2px;
-  left: 50px;
+  bottom: -7px;
+  left: 358px;
+}
+.map-circle-en{
+  position: fixed;
+  bottom: -7px;
+  right: 358px;
 }
 .en-text-box{
   position: fixed;
   top: 8%;
   left: 4%;
   display: grid;
+}
+.side-shape{
+  float: right;
+  width: 609px;
+  shape-outside: polygon(566px 0, 0px 500px, 0px 526px);
+  height: 565px;
+}
+.text-shape-container{
+  width: 950px;
+}
+.heb-text-shape-container{
+  width: 1000px;
+}
+.heb-side-shape{
+  float: left;
+  width: 500px;
+  shape-outside: polygon(0px 0px, 500px 500px, 10px 0);
+  height: 500px;
+}
+.hand-heb-arrow{
+  position: fixed;
+  left: 3%;
+  bottom: 5%;
+  transition: opacity 1s;
+  opacity: 1;
+}
+.hand-heb-arrow.fade{
+  opacity: 0;
+}
+.hand-en-arrow{
+  position: fixed;
+  right: 3%;
+  bottom: 5%;
+  transition: opacity 1s;
+  opacity: 1;
+}
+.hand-en-arrow.fade{
+  opacity: 0;
+}
+.container-to-fade{
+  transition: opacity 1s;
+  opacity: 1;
+}
+.container-to-fade.fade{
+  opacity: 0;
+}
+.jerusalem-icon{
+  position: fixed;
+  top: 38%;
+  left: 46%;
 }

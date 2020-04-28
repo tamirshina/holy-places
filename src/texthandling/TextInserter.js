@@ -13,8 +13,13 @@ function TextInserter() {
 
   const [isRightToLeft, setIsRightToLeft] = useState(false);
 
+  const text = `
+  Between 1850 and 1917, the Russian Empire and the Russian Church erected dozens of buildings throughout the Middle East and Palestine in particular. During these years, the industrial revolution and the progress that swept the Western world tends to reach our regions.
+  The Russian people during these years felt a deep connection with the Land of Israel and the holy sites of Christianity.
+   Many funds and resources were invested in Palestine by the Russian government and people, construction of churches and monasteries, infrastructure and a growing pilgrimage of Russian trainers who make pilgrimages to Jerusalem every year.
+  All of these contributed greatly to the development of the Land of Israel. The impact of this activity is still evident today, as beautiful churches adorn the landscape of the country and the big cities.`;
+
   useEffect(() => {
-    console.log("tamir")
     if (lang === "hebrew") {
       setIsRightToLeft(true);
     } else {
@@ -45,18 +50,23 @@ function TextInserter() {
   }
 
   return (
-    <div className={isRightToLeft ? "textBoxCss" : "en-text-box"}>
-      {isRightToLeft ? (
-        <LeftToRightTitle titleToInsert={titleToInsert()} />
-      ) : (
+    <div id="frontPageText" className={"container-to-fade"}>
+      <div className={isRightToLeft ? "textBoxCss" : "en-text-box"}>
+        {isRightToLeft ? (
           <RighToLeftTitle titleToInsert={titleToInsert()} />
-        )}
-      <p
-        ref={textParaEl}
-        className={isRightToLeft ? "infoHeText" : "infoEnText"}
-        id="particularTextBox"
-        dangerouslySetInnerHTML={createMarkup(infoToInsert())}
-      ></p>
+        ) : (
+            <LeftToRightTitle titleToInsert={titleToInsert()} />
+          )}
+        <div className={isRightToLeft ? "heb-text-shape-container" : "text-shape-container"}>
+          <div className={isRightToLeft ? "heb-side-shape" : "side-shape"}></div>
+          <p
+            ref={textParaEl}
+            className={isRightToLeft ? "infoHeText" : "infoEnText"}
+            id="particularTextBox"
+            dangerouslySetInnerHTML={isRightToLeft ? createMarkup(infoToInsert()) : createMarkup(text)}
+          ></p>
+        </div>
+      </div>
     </div>
   );
 }
