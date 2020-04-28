@@ -4,14 +4,16 @@ import IsraelPage from './pages/IsraelPage';
 import HomeBtn from './fragments/HomeBtn';
 import LanguageButtons from './fragments/LanguageButtons';
 import './App.css';
+import JerusalemPage from './pages/JerusalemPage';
 
 function App() {
 
   const [isFrontPage, setIstFrontPage] = useState(true);
   const [isIsraelPage, setIstIsraelPage] = useState(false);
+  const [isJerusalemPage, setIsJerusalemPage] = useState(false);
 
 
-  const HomeBtnLogic = () => {
+  const homeBtnLogic = () => {
 
     setIstFrontPage(true);
     setIstIsraelPage(false);
@@ -38,29 +40,35 @@ function App() {
   const playIsraelVideo = () => {
 
     const videoElem = document.getElementById("israelPageVideo");
-    const frontText = document.getElementById("frontPageText");
+    const elemntToFade = document.getElementsByClassName("container-to-fade");
     if (videoElem) {
       videoElem.play();
       videoElem.onplay = (event) => {
-        if (frontText) {
-          frontText.classList.add("fade");
-        }
+        elemntToFade[0].classList.add("fade");
+        elemntToFade[1].classList.add("fade");
         setTimeout(function () {
-          // setIsIppoPage(true);
-        }, 3500);
+          setIsJerusalemPage(true);
+        }, 2500);
       };
       videoElem.onended = (event) => {
-        setIstFrontPage(false);
+        setIstIsraelPage(false);
       };
     }
   };
+
+  const backToIsraelPage = () => {
+
+    setIstIsraelPage(true);
+    setIsJerusalemPage(false);
+  }
 
 
   return (
     <>
       {isFrontPage && <FrontPage playVideo={playVideo} />}
       {isIsraelPage && <IsraelPage playIsraelVideo={playIsraelVideo} />}
-      {!isFrontPage && <HomeBtn HomeBtnLogic={HomeBtnLogic} />}
+      {isJerusalemPage && <JerusalemPage homeBtnLogic={homeBtnLogic} backToIsraelPage={backToIsraelPage} />}
+      {!isFrontPage && <HomeBtn homeBtnLogic={homeBtnLogic} />}
       <LanguageButtons />
     </>
   );

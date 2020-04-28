@@ -267,4 +267,12 @@ html {
   position: fixed;
   top: 38%;
   left: 46%;
+  transition: opacity 1s;
+  opacity: 1;
+}
+.jerusalem-icon.fade{
+  opacity: 0;
+}
+.jerusalem-box{
+  
 }
