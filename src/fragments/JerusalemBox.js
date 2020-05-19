@@ -23,7 +23,7 @@ function JerusalemBox({ infoToInsert, cssForText, textBox }) {
 
     return (
         <div className={"jerusalem-box"} >
-
+            <h1 style={cssForText}>{infoToInsert}</h1>
             <img src={pin} alt="pin" style={cssForText} />
         </div>
 

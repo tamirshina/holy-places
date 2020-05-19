@@ -1,16 +1,19 @@
 const hebrewText = {
   id: "hebrewText",
   frontPage: {
-    title: "Holy Places",
+    title: "מקומות קדושים",
     openingParagraph: `
-      Between 1850 and 1917, the Russian Empire and the Russian Church erected dozens of buildings throughout the Middle East and Palestine in particular. During these years, the industrial revolution and the progress that swept the Western world tends to reach our regions.
-      The Russian people during these years felt a deep connection with the Land of Israel and the holy sites of Christianity.
-       Many funds and resources were invested in Palestine by the Russian government and people, construction of churches and monasteries, infrastructure and a growing pilgrimage of Russian trainers who make pilgrimages to Jerusalem every year.
-      All of these contributed greatly to the development of the Land of Israel. The impact of this activity is still evident today, as beautiful churches adorn the landscape of the country and the big cities.`
+    בין השנים 1850 ועד 1917 האימפריה הרוסית והכנסייה הרוסית הקימו עשרות מבנים ברחבי המזרח התיכון ופלשטינה בפרט. בשנים אלו המהפכה התעשייתית והקדמה ששטפה את העולם המערבי מיענה להגיע לאזורינו. 
+    העם הרוסי בשנים הללו חשו חיבור עמוק עם ארץ ישראל והמקומות הקדושים לנצרות.
+     כספים רבים ומשאבים הושקעו בפלשטינה ע"י הממשל והעם הרוסי, בנייה של כנסיות ומנזרים, תשתיות וזרם צליינים הולך וגובר של מאמנים רוסים העולים לרגל לירושלים מידי שנה. 
+    כל אלו תרמו רבות לפיתוחה של ארץ ישראל. ההשפעה של פעילות זו ניכרת גם היום כאשר כנסיות יפיפיות מעטרות את נופייה של הארץ ושל הערים הגדולות, מבני ממשל מוכרים לכל שנבנו לפני יותר ממאה שנה משמשים גם היום את מדינת ישראל במאה העשרים ואחת, אלפי תיירים מרוסיה פוקדים מדי שנה את הארץ ומגלים את המקומות הקדושים. 
+    ידע שהגיע לארץ, ההשקעה הכספית, התרומה לאוכלוסיה המקומית והמבנים היפייפים שהוקמו רובם בשימוש עד היום. ערך כל אלו לא יסולא בפז. 
+    `
   },
   IsraelPage: {
     haifa: `
       <b>חיפה - כנסיית אליהו הנביא </b>
+      
       אט אט עם גבור זרם הצליינים לארץ ישראל ולקראת שיאו ב-1913 התחילו צליינים להגיע גם לנמל חיפה. בעקבות כך נרכשה חלקת אדמה ב- 1908 ע"י הארכימנדריט ליאוניד סצנוב, בתחילה השלטונות התורכים סירבו לתת למקום אישור. בסופו של דבר התרצו השלטונות התורכים וביום הציון 300 שנה לשושלת רומנוב נפתחה הכנסייה ובית מחסה לצליינים.  
       לאליהו הנביא מקום של כבוד בנצרות גם משום שמקורות מסויימים מציינים שיוחנן המטביל ואליהו הנביא הם אותה הדמות וגם בשל מלחמתו של אליהו הנביא בעבודת האלילים. 
       `,

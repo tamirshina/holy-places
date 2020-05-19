@@ -28,19 +28,24 @@ function JerusalemPage() {
     }
 
     function squareInfoToInsert() {
-        return whichFileToUse().JerusalemPage.russianSquare;
+        //return whichFileToUse().JerusalemPage.russianSquare;
+        return "מגרש הרוסים"
     }
     function mariaChurchInfoToInsert() {
-        return whichFileToUse().JerusalemPage.mariaChurch;
+        //return whichFileToUse().JerusalemPage.mariaChurch;
+        return "מריה מגדלן"
     }
     function nyvskyChurchInfoToInsert() {
-        return whichFileToUse().JerusalemPage.nyvskyChurch;
+        //return whichFileToUse().JerusalemPage.nyvskyChurch;
+        return "אלכסנדר נייבסקי"
     }
     function ascensionChurchInfoToInsert() {
-        return whichFileToUse().JerusalemPage.ascensionChurch;
+        //return whichFileToUse().JerusalemPage.ascensionChurch;
+        return "כנסיית העלייה"
     }
     function benjeminYardInfoToInsert() {
-        return whichFileToUse().JerusalemPage.benjeminYard;
+        //return whichFileToUse().JerusalemPage.benjeminYard;
+        return "חצר בינימין"
     }
     const cssRussianSquare = {
         position: "fixed",

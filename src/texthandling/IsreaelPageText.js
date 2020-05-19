@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import LangContext from "../LangContext";
 import "../App.css";
 
-function IsraelPageText({ infoToInsert, cssForText }) {
+function IsraelPageText({ infoToInsert, cssForText, hebCssFortext }) {
     const lang = useContext(LangContext).lang;
 
     const [isRightToLeft, setIsRightToLeft] = useState(false);
@@ -21,7 +21,7 @@ function IsraelPageText({ infoToInsert, cssForText }) {
 
 
     return (
-        <div id="frontPageText" className={"container-to-fade"} style={cssForText}>
+        <div id="frontPageText" className={"container-to-fade"} style={isRightToLeft ? hebCssFortext : cssForText}>
             <p
                 className={isRightToLeft ? "infoHeText" : "infoEnText"}
                 dangerouslySetInnerHTML={createMarkup(infoToInsert)}

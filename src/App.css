@@ -178,6 +178,7 @@ html {
   line-height: 1.6;
   direction: rtl;
   white-space: pre-line;
+  margin-top: 0;
 }
 .addMargin {
   margin-right: 15px;
@@ -232,9 +233,9 @@ html {
 }
 .heb-side-shape{
   float: left;
-  width: 500px;
-  shape-outside: polygon(0px 0px, 500px 500px, 10px 0);
-  height: 500px;
+  width: 600px;
+  shape-outside: polygon(0px 0px, 793px 611px, 29px 0);
+  height: 800px;
 }
 .hand-heb-arrow{
   position: fixed;

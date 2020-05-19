@@ -41,6 +41,12 @@ function IsraelPage({ playIsraelVideo }) {
         left: "15%",
         width: "520px"
     };
+    const cssHeForHaifa = {
+        position: "fixed",
+        top: "11%",
+        left: "15%",
+        width: "520px"
+    };
     const cssForSeaOfGalili = {
         position: "fixed",
         top: "53%",
@@ -57,8 +63,8 @@ function IsraelPage({ playIsraelVideo }) {
                 className="fullBackground"
             />
             <img src={jerusalemImg} onClick={handelClick} ref={jeruImg} className="jerusalem-icon" alt="hand arrow" />
-            <IsraelTextInserter infoToInsert={haifaInfoToInsert()} cssForText={cssForHaifa} />
-            <IsraelTextInserter infoToInsert={seaOfGaliliInfoToInsert()} cssForText={cssForSeaOfGalili} />
+            <IsraelTextInserter infoToInsert={haifaInfoToInsert()} cssForText={cssForHaifa} hebCssFortext={cssHeForHaifa} />
+            <IsraelTextInserter infoToInsert={seaOfGaliliInfoToInsert()} cssForText={cssForSeaOfGalili} hebCssFortext={cssForSeaOfGalili}/>
         </>
     );
 }

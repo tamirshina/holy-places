@@ -40,7 +40,7 @@ function TextInserter() {
     return whichFileToUse().frontPage.openingParagraph;
   }
   function titleToInsert() {
-    return whichFileToUse().title;
+    return whichFileToUse().frontPage.title;
   }
 
   return (
