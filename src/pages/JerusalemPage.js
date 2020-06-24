@@ -13,81 +13,100 @@ import "../App.css";
 import JerusalemBox from "../fragments/JerusalemBox";
 
 function JerusalemPage() {
+  const { lang } = useContext(LangContext);
 
-    const { lang } = useContext(LangContext);
+  function whichFileToUse() {
+    if (lang === "hebrew") {
+      return hebrewText;
+    }
+    if (lang === "english") {
+      return englishText;
+    } else {
+      return russianText;
+    }
+  }
 
-    function whichFileToUse() {
-        if (lang === "hebrew") {
-            return hebrewText;
-        }
-        if (lang === "english") {
-            return englishText;
-        } else {
-            return russianText;
-        }
-    }
+  function squareInfoToInsert() {
+    // return whichFileToUse().JerusalemPage.russianSquare;
+    return "מגרש הרוסים";
+  }
+  function mariaChurchInfoToInsert() {
+    //return whichFileToUse().JerusalemPage.mariaChurch;
+    return "מריה מגדלן";
+  }
+  function nyvskyChurchInfoToInsert() {
+    //return whichFileToUse().JerusalemPage.nyvskyChurch;
+    return "אלכסנדר נייבסקי";
+  }
+  function ascensionChurchInfoToInsert() {
+    //return whichFileToUse().JerusalemPage.ascensionChurch;
+    return "כנסיית העלייה";
+  }
+  function benjeminYardInfoToInsert() {
+    //return whichFileToUse().JerusalemPage.benjeminYard;
+    return "חצר בינימין";
+  }
+  const cssRussianSquare = {
+    position: "fixed",
+    top: "32%",
+    left: "15%",
+  };
+  const cssMariaChurch = {
+    position: "fixed",
+    top: "41%",
+    right: "4%",
+  };
+  const cssNyvskyChurch = {
+    position: "fixed",
+    top: "49%",
+    right: "54%",
+  };
+  const cssAscensionChurch = {
+    position: "fixed",
+    top: "52%",
+    right: "3%",
+  };
+  const cssBenjeminYard = {
+    position: "fixed",
+    top: "19%",
+    left: "21%",
+  };
 
-    function squareInfoToInsert() {
-        //return whichFileToUse().JerusalemPage.russianSquare;
-        return "מגרש הרוסים"
-    }
-    function mariaChurchInfoToInsert() {
-        //return whichFileToUse().JerusalemPage.mariaChurch;
-        return "מריה מגדלן"
-    }
-    function nyvskyChurchInfoToInsert() {
-        //return whichFileToUse().JerusalemPage.nyvskyChurch;
-        return "אלכסנדר נייבסקי"
-    }
-    function ascensionChurchInfoToInsert() {
-        //return whichFileToUse().JerusalemPage.ascensionChurch;
-        return "כנסיית העלייה"
-    }
-    function benjeminYardInfoToInsert() {
-        //return whichFileToUse().JerusalemPage.benjeminYard;
-        return "חצר בינימין"
-    }
-    const cssRussianSquare = {
-        position: "fixed",
-        top: "30%",
-        left: "15%"
-    };
-    const cssMariaChurch = {
-        position: "fixed",
-        top: "43%",
-        right: "4%"
-    };
-    const cssNyvskyChurch = {
-        position: "fixed",
-        top: "47%",
-        right: "54%"
-    };
-    const cssAscensionChurch = {
-        position: "fixed",
-        top: "43%",
-        right: "0%"
-    };
-    const cssBenjeminYard = {
-        position: "fixed",
-        top: "22%",
-        left: "21%"
-    };
-
-    return (
-        <>
-            <img
-                id="israelPageVideo"
-                src={background}
-                className="fullBackground"
-                alt="backgroundPic"
-            />
-            <JerusalemBox infoToInsert={squareInfoToInsert()} cssForText={cssRussianSquare} textBox={boxOne} />
-            <JerusalemBox infoToInsert={mariaChurchInfoToInsert()} cssForText={cssMariaChurch} textBox={boxTwo} />
-            <JerusalemBox infoToInsert={nyvskyChurchInfoToInsert()} cssForText={cssNyvskyChurch} textBox={boxThree} />
-            <JerusalemBox infoToInsert={ascensionChurchInfoToInsert()} cssForText={cssAscensionChurch} textBox={boxFour} />
-            <JerusalemBox infoToInsert={benjeminYardInfoToInsert()} cssForText={cssBenjeminYard} textBox={boxFive} />
-        </>
-    );
+  return (
+    <>
+      <img
+        id="israelPageVideo"
+        src={background}
+        className="fullBackground"
+        alt="backgroundPic"
+      />
+      <JerusalemBox
+        infoToInsert={squareInfoToInsert()}
+        cssForText={cssRussianSquare}
+        textBox={boxOne}
+      />
+      <JerusalemBox
+        infoToInsert={mariaChurchInfoToInsert()}
+        cssForText={cssMariaChurch}
+        textBox={boxTwo}
+      />
+      <JerusalemBox
+        infoToInsert={nyvskyChurchInfoToInsert()}
+        cssForText={cssNyvskyChurch}
+        textBox={boxThree}
+      />
+      <JerusalemBox
+        infoToInsert={ascensionChurchInfoToInsert()}
+        cssForText={cssAscensionChurch}
+        textBox={boxFour}
+      />
+      <JerusalemBox
+        infoToInsert={benjeminYardInfoToInsert()}
+        cssForText={cssBenjeminYard}
+        textBox={boxFive}
+      />
+    </>
+  );
 }
 
 export default JerusalemPage;
