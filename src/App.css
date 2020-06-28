@@ -133,12 +133,22 @@ html {
 }
 .infoEnText {
   font-family: Papyrus;
-  font-size: 21px;
+  font-size: 19px;
   text-align: left;
   line-height: 1.6;
-  /* overflow: scroll; */
-  /* width: 44%;
-  height: 30%; */
+}
+.add-to-textbox-israel-page {
+  overflow: scroll;
+  white-space: pre-line;
+  height: inherit;
+}
+.add-to-title-jeru-box {
+  position: relative;
+  top: -17px;
+}
+.isreal-text-title {
+  font-size: 19px;
+  margin-bottom: -6px;
 }
 .image-text-container {
   position: fixed;
@@ -203,77 +213,86 @@ html {
   margin-right: 16px;
   direction: rtl;
 }
-.map-circle-heb{
+.map-circle-heb {
   position: fixed;
   bottom: -7px;
   left: 358px;
 }
-.map-circle-en{
+.map-circle-en {
   position: fixed;
   bottom: -7px;
   right: 358px;
 }
-.en-text-box{
+.en-text-box {
   position: fixed;
   top: 8%;
   left: 4%;
   display: grid;
 }
-.side-shape{
+.side-shape {
   float: right;
   width: 609px;
   shape-outside: polygon(566px 0, 0px 500px, 0px 526px);
   height: 565px;
 }
-.text-shape-container{
+.text-shape-container {
   width: 950px;
 }
-.heb-text-shape-container{
+.heb-text-shape-container {
   width: 1000px;
 }
-.heb-side-shape{
+.heb-side-shape {
   float: left;
   width: 600px;
   shape-outside: polygon(0px 0px, 793px 611px, 29px 0);
   height: 800px;
 }
-.hand-heb-arrow{
+.hand-heb-arrow {
   position: fixed;
   left: 3%;
   bottom: 5%;
   transition: opacity 1s;
   opacity: 1;
 }
-.hand-heb-arrow.fade{
+.hand-heb-arrow.fade {
   opacity: 0;
 }
-.hand-en-arrow{
+.hand-en-arrow {
   position: fixed;
   right: 3%;
   bottom: 5%;
   transition: opacity 1s;
   opacity: 1;
 }
-.hand-en-arrow.fade{
+.hand-en-arrow.fade {
   opacity: 0;
 }
-.container-to-fade{
+.container-to-fade {
   transition: opacity 1s;
   opacity: 1;
 }
-.container-to-fade.fade{
+.container-to-fade.fade {
   opacity: 0;
 }
-.jerusalem-icon{
+.jerusalem-icon {
   position: fixed;
   top: 38%;
   left: 46%;
   transition: opacity 1s;
   opacity: 1;
 }
-.jerusalem-icon.fade{
+.jerusalem-icon.fade {
   opacity: 0;
 }
-.jerusalem-box{
-  
+.jerusalem-box {
+}
+.backBtn {
+  position: fixed;
+  bottom: 11px;
+  right: 270px;
+  z-index: 10;
+}
+.heb-israel-text-title {
+  direction: rtl;
+  margin-bottom: 8px;
 }

@@ -4,30 +4,28 @@ import pin from "../assets/Screen-03/PIN.png";
 import "../App.css";
 
 function JerusalemBox({ infoToInsert, cssForText, textBox }) {
-    const lang = useContext(LangContext).lang;
+  const lang = useContext(LangContext).lang;
 
-    const [isRightToLeft, setIsRightToLeft] = useState(false);
+  const [isRightToLeft, setIsRightToLeft] = useState(false);
 
-    useEffect(() => {
-        if (lang === "hebrew") {
-            setIsRightToLeft(true);
-        } else {
-            setIsRightToLeft(false);
-        }
-    }, [lang]);
-
-    function createMarkup(str) {
-        return { __html: str };
+  useEffect(() => {
+    if (lang === "hebrew") {
+      setIsRightToLeft(true);
+    } else {
+      setIsRightToLeft(false);
     }
+  }, [lang]);
 
+  function createMarkup(str) {
+    return { __html: str };
+  }
 
-    return (
-        <div className={"jerusalem-box"} >
-            <h1 style={cssForText}>{infoToInsert}</h1>
-            <img src={pin} alt="pin" style={cssForText} />
-        </div>
-
-    );
+  return (
+    <div className={"jerusalem-box"} style={cssForText}>
+      <h1 className={"add-to-title-jeru-box"}>{infoToInsert}</h1>
+      <img src={pin} alt="pin" style={cssForText} />
+    </div>
+  );
 }
 
 export default JerusalemBox;

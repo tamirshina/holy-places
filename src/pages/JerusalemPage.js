@@ -48,27 +48,27 @@ function JerusalemPage() {
   }
   const cssRussianSquare = {
     position: "fixed",
-    top: "32%",
+    top: "28%",
     left: "15%",
   };
   const cssMariaChurch = {
     position: "fixed",
-    top: "41%",
+    top: "37%",
     right: "4%",
   };
   const cssNyvskyChurch = {
     position: "fixed",
-    top: "49%",
+    top: "45%",
     right: "54%",
   };
   const cssAscensionChurch = {
     position: "fixed",
-    top: "52%",
+    top: "48%",
     right: "3%",
   };
   const cssBenjeminYard = {
     position: "fixed",
-    top: "19%",
+    top: "15%",
     left: "21%",
   };
 
