@@ -36,6 +36,8 @@ function JerusalemPage() {
             infoToInsert={item.info}
             cssForText={item.cssForPosition}
             textBox={item.imageBox}
+            textBoxCss={item.positonForTextBox}
+            textStyle={item.textStyle}
           />
         );
       })}

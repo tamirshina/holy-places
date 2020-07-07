@@ -32,14 +32,23 @@ const russianText = {
   },
   JerusalemPage: [
     {
-      name: "mariaChurch",
+      name: "russianSqure",
       title: "Русское подворье",
       cssForPosition: {
         position: "fixed",
         top: "28%",
         left: "15%",
       },
-      positonForTextBox: {},
+      positonForTextBox: {
+        position: "fixed",
+        top: "33%",
+        left: "3%",
+      },
+      textStyle: {
+        position: "relative",
+        bottom: "462px",
+        left: "10%",
+      },
       imageBox: russianBox,
       info: `
         <b>Русское подворье</b> -
@@ -56,7 +65,16 @@ const russianText = {
         top: "37%",
         right: "4%",
       },
-      positonForTextBox: {},
+      positonForTextBox: {
+        position: "fixed",
+        top: "3%",
+        left: "32%",
+      },
+      textStyle: {
+        position: "relative",
+        bottom: "619px",
+        left: "12%",
+      },
       imageBox: mariaBox,
       info: `
     <b>Церковь Марии Магдалены</b> -
@@ -78,7 +96,16 @@ const russianText = {
         top: "45%",
         right: "54%",
       },
-      positonForTextBox: {},
+      positonForTextBox: {
+        position: "fixed",
+        top: "0%",
+        left: "40%",
+      },
+      textStyle: {
+        position: "relative",
+        bottom: "576px",
+        left: "9%",
+      },
       imageBox: alexBox,
       info: `
         <b>Александровское подворье, церковь Александра Невского</b> - 
@@ -90,13 +117,22 @@ const russianText = {
     },
     {
       name: "ascensionChurch",
-      title: "Русское подворье",
+      title: "ascensionChurch",
       cssForPosition: {
         position: "fixed",
         top: "48%",
         right: "3%",
       },
-      positonForTextBox: {},
+      positonForTextBox: {
+        position: "fixed",
+        top: "29%",
+        left: "34%",
+      },
+      textStyle: {
+        position: "relative",
+        bottom: "618px",
+        left: "12%",
+      },
       imageBox: aliyahBox,
       info: `
               <b>Елионский Спасо-Вознесенский монастырь на Масличной горе</b>- 
@@ -117,7 +153,16 @@ const russianText = {
         top: "15%",
         left: "21%",
       },
-      positonForTextBox: {},
+      positonForTextBox: {
+        position: "fixed",
+        top: "23%",
+        left: "2%",
+      },
+      textStyle: {
+        position: "relative",
+        bottom: "423px",
+        left: "8%",
+      },
       imageBox: benjiBox,
       info: `
     <b>Вениаминовское подворье в Иерусалиме</b> - 

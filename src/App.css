@@ -299,3 +299,20 @@ html {
   top: 50%;
   left: 50%;
 }
+.text-jeru-box {
+  width: 700px;
+  height: 500px;
+  font-family: Papyrus;
+  white-space: pre-line;
+  font-size: 17px;
+  line-height: 1.4;
+  overflow: scroll;
+}
+.overlay-bold {
+  z-index: 9;
+  height: 600px;
+  width: 600px;
+}
+.jerusalem-box {
+  z-index: 0;
+}

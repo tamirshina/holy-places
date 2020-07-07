@@ -3,7 +3,14 @@ import LangContext from "../LangContext";
 import pin from "../assets/Screen-03/PIN.png";
 import "../App.css";
 
-function JerusalemBox({ titleToInsert, infoToInsert, cssForText, textBox }) {
+function JerusalemBox({
+  titleToInsert,
+  infoToInsert,
+  cssForText,
+  textBox,
+  textBoxCss,
+  textStyle,
+}) {
   const lang = useContext(LangContext).lang;
 
   const [isRightToLeft, setIsRightToLeft] = useState(false);
@@ -34,16 +41,20 @@ function JerusalemBox({ titleToInsert, infoToInsert, cssForText, textBox }) {
   }
 
   return (
-    <div className={"jerusalem-box"} style={cssForText} onClick={opentextBox}>
-      <h1 className={"add-to-title-jeru-box"}>{titleToInsert}</h1>
-      <img src={pin} alt="pin" style={cssForText} />
+    <>
+      <div className={"jerusalem-box"} style={cssForText} onClick={opentextBox}>
+        <h1 className={"add-to-title-jeru-box"}>{titleToInsert}</h1>
+        <img src={pin} alt="pin" style={cssForText} />
+      </div>
       {isTextBoxOpen ? (
-        <div>
-          <img src={textBox} alt="textBox" className={"text-bos-jeru"} />
-          <div dangerouslySetInnerHTML={createMarkup(infoToInsert)} />
+        <div style={textBoxCss} className="overlay-bold">
+          <img src={textBox} alt="textBox" />
+          <div className={"text-jeru-box"} style={textStyle}>
+            <p dangerouslySetInnerHTML={createMarkup(infoToInsert)} />
+          </div>
         </div>
       ) : null}
-    </div>
+    </>
   );
 }
 

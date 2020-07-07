@@ -40,7 +40,16 @@ const hebrewText = {
         top: "28%",
         left: "15%",
       },
-      positonForTextBox: {},
+      positonForTextBox: {
+        position: "fixed",
+        top: "33%",
+        left: "3%",
+      },
+      textStyle: {
+        position: "relative",
+        bottom: "462px",
+        left: "10%",
+      },
       imageBox: russianBox,
       info: `
       Area of ​​Russian Compound -
@@ -58,7 +67,16 @@ const hebrewText = {
         top: "37%",
         right: "4%",
       },
-      positonForTextBox: {},
+      positonForTextBox: {
+        position: "fixed",
+        top: "3%",
+        left: "32%",
+      },
+      textStyle: {
+        position: "relative",
+        bottom: "619px",
+        left: "12%",
+      },
       imageBox: mariaBox,
       info: `
       Area of ​​Russian Compound -
@@ -76,7 +94,16 @@ const hebrewText = {
         top: "45%",
         right: "54%",
       },
-      positonForTextBox: {},
+      positonForTextBox: {
+        position: "fixed",
+        top: "0%",
+        left: "40%",
+      },
+      textStyle: {
+        position: "relative",
+        bottom: "576px",
+        left: "9%",
+      },
       imageBox: alexBox,
       info: `
       Area of ​​Russian Compound -
@@ -94,7 +121,16 @@ const hebrewText = {
         top: "48%",
         right: "3%",
       },
-      positonForTextBox: {},
+      positonForTextBox: {
+        position: "fixed",
+        top: "29%",
+        left: "34%",
+      },
+      textStyle: {
+        position: "relative",
+        bottom: "618px",
+        left: "12%",
+      },
       imageBox: aliyahBox,
       info: `
       Area of ​​Russian Compound -
@@ -112,7 +148,16 @@ const hebrewText = {
         top: "15%",
         left: "21%",
       },
-      positonForTextBox: {},
+      positonForTextBox: {
+        position: "fixed",
+        top: "23%",
+        left: "2%",
+      },
+      textStyle: {
+        position: "relative",
+        bottom: "423px",
+        left: "8%",
+      },
       imageBox: benjiBox,
       info: `
       Area of ​​Russian Compound -
