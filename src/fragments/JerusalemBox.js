@@ -3,10 +3,11 @@ import LangContext from "../LangContext";
 import pin from "../assets/Screen-03/PIN.png";
 import "../App.css";
 
-function JerusalemBox({ infoToInsert, cssForText, textBox }) {
+function JerusalemBox({ titleToInsert, infoToInsert, cssForText, textBox }) {
   const lang = useContext(LangContext).lang;
 
   const [isRightToLeft, setIsRightToLeft] = useState(false);
+  const [isTextBoxOpen, setIsTextBoxOpen] = useState(false);
 
   useEffect(() => {
     if (lang === "hebrew") {
@@ -19,11 +20,29 @@ function JerusalemBox({ infoToInsert, cssForText, textBox }) {
   function createMarkup(str) {
     return { __html: str };
   }
+  function opentextBox() {
+    console.log("shinnaaa");
+    setIsTextBoxOpen(true);
+    setTimeout(function () {
+      window.addEventListener("click", closeTextBox);
+    }, 1000);
+  }
+  function closeTextBox() {
+    console.log("tamirr");
+    window.removeEventListener("click", closeTextBox);
+    setIsTextBoxOpen(false);
+  }
 
   return (
-    <div className={"jerusalem-box"} style={cssForText}>
-      <h1 className={"add-to-title-jeru-box"}>{infoToInsert}</h1>
+    <div className={"jerusalem-box"} style={cssForText} onClick={opentextBox}>
+      <h1 className={"add-to-title-jeru-box"}>{titleToInsert}</h1>
       <img src={pin} alt="pin" style={cssForText} />
+      {isTextBoxOpen ? (
+        <div>
+          <img src={textBox} alt="textBox" className={"text-bos-jeru"} />
+          <div dangerouslySetInnerHTML={createMarkup(infoToInsert)} />
+        </div>
+      ) : null}
     </div>
   );
 }

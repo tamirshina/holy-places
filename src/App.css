@@ -46,7 +46,7 @@ html {
 .textBoxCss {
   position: fixed;
   top: 5%;
-  right: 4%;
+  right: 3.1%;
   direction: rtl;
   display: grid;
 }
@@ -284,8 +284,6 @@ html {
 .jerusalem-icon.fade {
   opacity: 0;
 }
-.jerusalem-box {
-}
 .backBtn {
   position: fixed;
   bottom: 11px;
@@ -295,4 +293,9 @@ html {
 .heb-israel-text-title {
   direction: rtl;
   margin-bottom: 8px;
+}
+.text-bos-jeru {
+  position: fixed;
+  top: 50%;
+  left: 50%;
 }

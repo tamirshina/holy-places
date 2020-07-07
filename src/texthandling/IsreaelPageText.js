@@ -13,7 +13,7 @@ function IsraelPageText({ infoToInsert, cssForText, hebCssFortext }) {
     } else {
       setIsRightToLeft(false);
     }
-  }, [lang, infoToInsert]);
+  }, [lang]);
 
   function createMarkup(str) {
     return { __html: str };
