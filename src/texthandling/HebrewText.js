@@ -33,35 +33,9 @@ const hebrewText = {
   },
   JerusalemPage: [
     {
-      name: "russianSquare",
-      title: "Русское подворье",
-      cssForPosition: {
-        position: "fixed",
-        top: "28%",
-        left: "15%",
-      },
-      positonForTextBox: {
-        position: "fixed",
-        top: "33%",
-        left: "3%",
-      },
-      textStyle: {
-        position: "relative",
-        bottom: "462px",
-        left: "10%",
-      },
-      imageBox: russianBox,
-      info: `
-      Area of ​​Russian Compound -
-      
-      68 acres of land near the Jaffa Gate, which are now part of central Jerusalem, but in the years when Russian interest in Jerusalem was renewed, it was a tract of land surrounding agricultural land outside the Old City walls.
-      The land acquisition process began in June 1857 for three years and ended in October 1860 A total of 5 plots of land were purchased, and the sixth part was granted by the Turkish authorities as a gift to the Czar.
-      This area was used before the construction of a public square, where celebrations and ceremonies or military arrangements were held. The square was called by the Turks al-Maidan.
-      The Russian plan was to establish a kind of small city, Palestinian Russia, to serve the Russian pilgrims who visit the Holy Land. It included a church (Holy Trinity Church), a hospital, the Lord's houses`,
-    },
-    {
       name: "mariaChurch",
-      title: "Русское подворье",
+      waiteTime: 200,
+      title: "נסיית מריה מגדלנה",
       cssForPosition: {
         position: "fixed",
         top: "37%",
@@ -75,20 +49,27 @@ const hebrewText = {
       textStyle: {
         position: "relative",
         bottom: "619px",
-        left: "12%",
+        left: "18%",
       },
       imageBox: mariaBox,
       info: `
-      Area of ​​Russian Compound -
-      
-      68 acres of land near the Jaffa Gate, which are now part of central Jerusalem, but in the years when Russian interest in Jerusalem was renewed, it was a tract of land surrounding agricultural land outside the Old City walls.
-      The land acquisition process began in June 1857 for three years and ended in October 1860 A total of 5 plots of land were purchased, and the sixth part was granted by the Turkish authorities as a gift to the Czar.
-      This area was used before the construction of a public square, where celebrations and ceremonies or military arrangements were held. The square was called by the Turks al-Maidan.
-      The Russian plan was to establish a kind of small city, Palestinian Russia, to serve the Russian pilgrims who visit the Holy Land. It included a church (Holy Trinity Church), a hospital, the Lord's houses`,
+    <b>נסיית מריה מגדלנה</b> 
+
+    מרים המגדלית מתוארת בברית החדשה כתומכת מרכזית בישו, ונודעה כ"שליחת השליחים" (apostolorum apostola). על־פי ספרי הבשורה, היא הייתה אחת מהנשים שנכחו בצליבתו של ישו ובקומו לתחייה.
+
+על שטח שנקנה על שמו של הצאר אלכסנדר השלישי ב- 1882, הוקמה הכנסייה שיועדה והפכה להיות גולת הכותרת של הנוכחות הרוסית בארץ ישראל. עליה נכתב עוד לפני השלמת הבנייה שלה כי "...במקום המופלא מוקמת אנדרטה הראויה למשפחת הקיסר ולתהילת רוסיה. הנזירים הקתולים קורעים על עצמם את גלימותיהם מרוב
+קנאה".
+
+הארכימנדריט קפוסטין, ראש המשלחת הדתית הרוסית, הציע לנסיכים הגדולים סרגיי אלכסנדרוביץ' ופאבל אלכסנדרוביץ' את הרעיון להקים מקדש לזכר אמם, הקיסרית מריה אלכסנדרובנה, בעת ביקורם בירושלים במאי שנת 1881. 
+העבודות החלו ב- 1885 ובשנת 1888 נערך טקס ההקדשה של הכנסייה בנוכחות הפטריארך היווני של ירושלים, הנסיך הגדול וראש ה- IPPO(האגודה הקיסרית הפרבוסלבית לפלשתינה) סרגיי אלכסנדרוביץ ובת זוגו הנסיכה אליזבטה פיודרובנה, שביקשה להיקבר בכנסייה זו. 
+*מול שער הכניסה הראשי לכנסייה, בתוך הגדר המקיפה את מתחם גת שמנים, ניצב עמוד אבן עתיק שמקורו לא ידוע, הנקרא 'עמוד הבגידה' או 'עמוד הנשיקה'. עמוד זה מסמל את המקום בו נישק יהודה איש קריות את ישו, וכך הסגירו לחיילים הרומאיים, על פי המתואר בהבשורה על-פי מרקוס בברית החדשה:
+"עודנו מדבר, ויהודה בא והוא אחד משנים העשר, ועמו המון רב בחרבות ובמקלות מאת ראשי הכהנים והסופרים והזקנים. והמוסר אתו נתן להם אות לאמור: האיש אשר אשקהו, זה הוא. תפשו אותו והוליכוהו, אל יימלט. הוא בא והוא נגש אליו ויאמר: רבי רבי וינשק לו. וישלחו בו את-ידיהם ויתפשוהו".
+לאחר המהפכה הבולשביקית ברוסיה רדפו הבולשביקים את משפחת הצאר ובהם הנסיכה אליזבטה פיודרובנה. מאז מות בעלה, הפכה אליזבטה לנזירה, אשר הקדישה את חייה לעזרה לזולת ולא הסכימה לעזוב את רוסיה עבור בטחונה האישי, על מנת להישאר עם בני הקהילה שלה במוסקבה. אליזבטה נתפסה על ידי הבולשביקים ולאחר כשנה במעצר היא נרצחה באכזריות. תומכי הצאר שמצאו את הנסיכה לאחר מותה,ביקשו להביאה לקבורה ראויה. גופתה הועברה קודם לסיביר, לאחר מכן לבית הקברות של משפחת המלוכה בסין וב-1920 בהוראת אחותה ויקטוריה ובהתאם לרצונה של אליזבטה עצמה, הועברו עצמותיה בפעם האחרונה לקבורה בכנסייה מריה מגדלן. אליזבטה מוכרת כקדושה חדשה על ידי הכנסייה הפרובוסלבית.`,
     },
     {
       name: "nyvskyChurch",
-      title: "Русское подворье",
+      waiteTime: 300,
+      title: "חצר אלכסנדר",
       cssForPosition: {
         position: "fixed",
         top: "45%",
@@ -96,26 +77,25 @@ const hebrewText = {
       },
       positonForTextBox: {
         position: "fixed",
-        top: "0%",
+        top: "3%",
         left: "40%",
       },
       textStyle: {
         position: "relative",
-        bottom: "576px",
-        left: "9%",
+        bottom: "565px",
+        left: "16%",
+        height: "359px",
       },
       imageBox: alexBox,
       info: `
-      Area of ​​Russian Compound -
-      
-      68 acres of land near the Jaffa Gate, which are now part of central Jerusalem, but in the years when Russian interest in Jerusalem was renewed, it was a tract of land surrounding agricultural land outside the Old City walls.
-      The land acquisition process began in June 1857 for three years and ended in October 1860 A total of 5 plots of land were purchased, and the sixth part was granted by the Turkish authorities as a gift to the Czar.
-      This area was used before the construction of a public square, where celebrations and ceremonies or military arrangements were held. The square was called by the Turks al-Maidan.
-      The Russian plan was to establish a kind of small city, Palestinian Russia, to serve the Russian pilgrims who visit the Holy Land. It included a church (Holy Trinity Church), a hospital, the Lord's houses`,
+        <b>חצר אלכסנדר, כנסיית אלכסנדר נייבסקי </b>
+
+        חלקה שנרכשה על" ידי רוסיה הצארית בשנת 1859 מהכנסייה האתיופית, במטרה להקים שם את הקונסוליה הרוסית בירושלים. במהלך עבודות הבנייה של הקונסוליה התגלו ממצאים ארכיאולוגים מרעישים;  שער קדום וסרקופג (ארון קבורה) המאמינים כי הוא מכיל את תכריכיו של ישו. בעקבות חשיפת הממצאים הוחלט להקים במקום כנסייה במקום הקונסוליה המתוכננת. הארכימנדריט קפוסטין בשיתוף עם הארכיאולוג הנודע קונרד שיק המשיכו בחפירות ובמקום התגלו ממצאים מתאימים ל"שערי המשפט" המתוארים בצורה מפורטת בברית החדשה ודרכם עבר ישו הצלוב אל עבר גבעת גלגלתא, שם לבסוף מצא את מותו. בנוסף לכנסייה הוקמו בחצר אלכסנדר מנזר ואכסנייה למבקרים. המבנה עשוי מאבן שיש ורודה ואבן שיש אדומה בתבנית אבלק המאפיינת את התקופה הממלוכית. `,
     },
     {
       name: "ascensionChurch",
-      title: "Русское подворье",
+      waiteTime: 400,
+      title: "כנסיית העלייה",
       cssForPosition: {
         position: "fixed",
         top: "48%",
@@ -133,16 +113,22 @@ const hebrewText = {
       },
       imageBox: aliyahBox,
       info: `
-      Area of ​​Russian Compound -
-      
-      68 acres of land near the Jaffa Gate, which are now part of central Jerusalem, but in the years when Russian interest in Jerusalem was renewed, it was a tract of land surrounding agricultural land outside the Old City walls.
-      The land acquisition process began in June 1857 for three years and ended in October 1860 A total of 5 plots of land were purchased, and the sixth part was granted by the Turkish authorities as a gift to the Czar.
-      This area was used before the construction of a public square, where celebrations and ceremonies or military arrangements were held. The square was called by the Turks al-Maidan.
-      The Russian plan was to establish a kind of small city, Palestinian Russia, to serve the Russian pilgrims who visit the Holy Land. It included a church (Holy Trinity Church), a hospital, the Lord's houses`,
+              <b>כנסיית העלייה בהר הזיתים</b>
+              
+              נקראת בפי התושבים הערביים המקומיים אל מוסקובייה על שם הצליינים הרוסים שבנו אותה, על אף שהדמויות המרכזיות בבנייתה הגיעו מחלקים אחרים של רוסיה. היוזם והמבצע של הכנסייה המרשימה הזו, כמו יוזמות רבות אחרות של האימפריה הרוסית, הוא הארכימנדריט אנטונין קפוסטין שהגיע ממחוז פרם. הכנסייה מקדשת את זכר עלייתו של ישו השמיימה ובמרכזה מתנוסס מגדל פעמון בגובה 64 מטרים. הפעמון, שמשקלו כ- 5 טונות, היה הראשון לצלצל בירושלים אחרי מאות שנים בהם השלטונות המוסלמים אסרו על נוצרים לצלצל בפעמונים. 
+              הדרך שעשה הפעמון מרוסיה מתוארת בצורה פיוטית בספרו של מאיר שלו "עשיו" - "ארבעה מאות וחמישים צליינים שגררו פעמון נחושת ענקי לכנסיית מרים המגדלית (הטעות במקור). את הפעמון יצקו באודסה והציבו על גבי עגלה כבירה שנבנתה במיוחד לשם כך. הגברים משכו אותה עד לנמל. משם הפליגו באונייה "סנטה-אנה" ליפו, ושם נרתמו הנשים אל העגלה. למן אותו רגע שתקו כולם, כי כך נשבעו לעשות עד שיתלו את הפעמון במקומו. עוד
+              זמר רב אחר-כך היה אפשר להכיר את משתתפי המסע ההוא לפי אופן הליכתם: פוסעים מאומצים
+              ושחוחים, כחותרים נגד רוח עזה".
+              
+              המסורת על מציאת ראשו של יוחנן המטביל בהר הזיתים -
+              קיימת מסורת מוקדמת הגורסת כי ראשו של יוחנן המטביל התגלה על הר הזיתים בזמנו של קונסטנטינוס הקיסר הרומי. ראשו של יוחנן המטביל נכרת משום שהוכיח את המלך הורדוס על כך שנשא לאישה את הורודיה, אשת אחיו, ולה בת מאחיו. לפי חוקי התורה, נשיאת אשת האח מותרת רק במקרה שבו האח מת לפני שהעמיד צאצאים.  על פי מסורת הנזירות במנזר הרוסי, הורודיה לא אפשרה לקבור את ראשו יחד עם יתר גופו, אלא הסתירה את הראש בארמונו של הורדוס  כיוון שחששה כי אם יקבר ראשו יחד עם הגוף יקום יוחנן לתחייה.
+              תלמידתו של יוחנן גילתה את הראש והבריחה אותו באישון לילה מהארמון. את הראש הטמינה בכד וקברה בהר הזיתים. על פי מסורת זו, נתגלה הראש פעמיים. בפעם הראשונה על ידי איש עשיר, אינוצנטיוס, שהחליט להתרחק מהעולם ולחיות בפרישות ולשם כך רכש חלקה קטנה על הר הזיתים. כאשר רצה אינוצנטיוס לבנות לו במקום כנסייה קטנה הוא נתקל בכד עם הראש. לפני מותו טמן אינוצנטיוס את הכד במקום בו מצא אותו. בשנת 452 הכד נתגלה שוב בעקבות הופעתו של יוחנן המטביל שלוש פעמים בחלומותיהם של שני נזירים. בחלום סיפר להם יוחנן היכן קבור ראשו. לאחר הפעם השלישית השתכנעו הנזירים הלכו לחפש את הראש  ומצאו אותו.
+              `,
     },
     {
       name: "benjeminYard",
-      title: "Русское подворье",
+      waiteTime: 500,
+      title: "חצר בנימין",
       cssForPosition: {
         position: "fixed",
         top: "15%",
@@ -155,17 +141,182 @@ const hebrewText = {
       },
       textStyle: {
         position: "relative",
-        bottom: "423px",
-        left: "8%",
+        bottom: "442px",
+        left: "13%",
       },
       imageBox: benjiBox,
       info: `
-      Area of ​​Russian Compound -
+    <b>חצר בנימין</b> 
+    
+    קרויה על שם נזיר נוצרי בשם בנימין שהגיע לראשונה לארץ ישראל בשנת 1846 וכמו אחרים התאהב בארץ הקודש. בזמן מלחמת טורקיה רוסיה טיפל בפצועים בחזית הטורקית ועל פועלו זכה בעיטור גבורה. 
+בשנת 1887 באמצעות כספים שגייס בעצמו, פתח בנימין אכסנייה ברובע היהודי. בניגוד לאכסניות העונתיות (עונת הצליינות נמשכת בד"כ מאוקטובר עד מאי) של ה-IPPO, האכסנייה של בנימין נועדה להיות כמעין בית מחסה לאנשים שרצו לסיים את חייהם בירושלים וכך תמורת תשלום זעום היה ניתן לשכור חדר לשם כך. במקום היו גם חדרים משותפים בהם יכלו אנשי האגודה ה-IPPO האגודה הקיסרית הפרבוסלבית לפלשתינה) לשהות בחינם. הנזיר בנימין היה חביב מאוד על הכמורה בירושלים והלווייתו נערכה בכנסיית השילוש הקדוש. את החצר שהקים הוא הוריש לאגודה ורשם אותה על שם יושב ראש האגודה סרגיי אלכסנדרוביץ.
+במשך שנים המבנה אוכלס על "ידי עמותת יד שרה.`,
+    },
+  ],
+  russianSqure: [
+    {
+      name: "russianSqure",
+      waiteTime: 100,
+      title: "The Russian Compound",
+      cssForPosition: {
+        position: "fixed",
+        top: "28%",
+        left: "15%",
+      },
+      positonForTextBox: {
+        position: "fixed",
+        top: "33%",
+        left: "3%",
+      },
+      textStyle: {
+        position: "relative",
+        bottom: "471px",
+        left: "12%",
+      },
+      imageBox: russianBox,
+      info: `
+        <b>The Russian Compound</b> 
+        
+        In 1857 the Ottomans were willing to sell to Russia a land plot of 68 square kilometers located adjacent to the old city walls to the west. The Tsar paid, as a matter of fact, for five sixths of the land value, and the remaining sixth was granted to him as a present by the Ottomans. This was an extraordinary move, because this plot outmatches the old city from a strategic point of view; it is very close to the central Jaffa road, and compelled the Ottoman authorities to vacate the square that was used for celebrations, ceremonies and military parades. Actually, the Russian Compound was the first site with great proximity to the old city walls in which the Ottomans permitted constructions. The vision of Russian Palestine begins to materialize in a prime location of developing Jerusalem.
+The plan was to create a kind of a small town that serves Russian pilgrims that sojourn the Holy Land. It included the church of the Holy Trinity, a hospital, the hostels in honor of Maria and Elizabeth, a building hosting the ecclesiastical mission, the edifice of the Russian consulate and water reserves.
+`,
+    },
+    {
+      name: "religiousMission",
+      waiteTime: 200,
+      title: "המשלחת הדתית",
+      cssForPosition: {
+        position: "fixed",
+        top: "37%",
+        right: "4%",
+      },
+      positonForTextBox: {
+        position: "fixed",
+        top: "3%",
+        left: "32%",
+      },
+      textStyle: {
+        position: "relative",
+        bottom: "619px",
+        left: "18%",
+      },
+      imageBox: mariaBox,
+      info: `
+    <b>בניין המשלחת הדתית</b> 
+
+    המבנה הוקם על מנת לשמש את חברי המשלחת הרוסית הדתית למזרח התיכון. המבנה כלל את המשרדים שריכזו את הפעילות בארץ ישראל, לבנון וסוריה, חדרי לינה ואירוח  לאורחים רמי דרג, קבלה וספרייה. המבנה בנוי בצורה של ארבעה מסדרונות ארוכים בני שתי קומות ובמרכזם קפלה לתפילה. 
+    גולת הכותרת של המבנה היא הספרייה הענפה המכילה עד היום את אוצר הארכיון של הכנסייה הרוסית בישראל ובנוסף אלפי ספרים וכותרים שנתרמו על ידי הנסיך קונסטנטין. כיום הספרייה עדיין פעילה ומכילה מעל ל- 17,000 כותרים. 
+    המבנה נותר מאוכלס על ידי נציגים של הכנסייה הרוסית מאז הקמתו ועד היום במשך מעל 150 שנה. באותה תקופה התחלף  השלטון בארץ מספר פעמים, מן הממשל העות'מאני לממשל האנגלי ובסוף לממשל הישראלי. חלקו של המבנה מאכלס כיום את בית המשפט המחוזי של ירושלים.`,
+    },
+    {
+      name: "elisYard",
+      waiteTime: 300,
+      title: "Elizabeth’s Courtyard",
+      cssForPosition: {
+        position: "fixed",
+        top: "45%",
+        right: "54%",
+      },
+      positonForTextBox: {
+        position: "fixed",
+        top: "3%",
+        left: "40%",
+      },
+      textStyle: {
+        position: "relative",
+        bottom: "565px",
+        left: "16%",
+        height: "359px",
+      },
+      imageBox: alexBox,
+      info: `
+        <b>חצר אליזבטה</b>
+
+        נבנתה בשנת 1864 על ידי האדריכל מרטין איוונוביץ אפינגר כאכסנייה לגברים בת קומה אחת ובה 300 מקומות לינה, המעוצבת בסגנון רנסנס רוסי. על אף כמות המיטות הגדולה במקום, במשך עונת הצליינים מאוקטובר ועד אפריל התפוסה במקום הייתה מלאה. מיטות נוספות היו ממוקמות במסדרונות ואף אוהלים הוקמו לאחסן את עשרות הצליינים. האכסנייה קרויה על שם אלישבע, אימו של יוחנן המטביל, הנקראת אליזבטה ברוסית. `,
+    },
+    {
+      name: "mariaYard",
+      waiteTime: 400,
+      title: "אכסניית מריה",
+      cssForPosition: {
+        position: "fixed",
+        top: "48%",
+        right: "3%",
+      },
+      positonForTextBox: {
+        position: "fixed",
+        top: "29%",
+        left: "34%",
+      },
+      textStyle: {
+        position: "relative",
+        bottom: "618px",
+        left: "12%",
+      },
+      imageBox: aliyahBox,
+      info: `
+              <b>אכסניית הנשים ע"ש מריה</b>
+              
+              "אכסניית הנשים הצלייניות" נקראה על שם מריה פיודורובנה, אשתו של הצאר אלכסנדר השלישי ואמו של הצאר האחרון ניקולאי השני. המבנה תוכנן על ידי "אדריכל הבית" של ה-IPPO, מרטין איוונוביץ' אפינגר. המבנה עצמו הורכב משני מבנים מרובעים מחוברים זה לזה ובמרכזו של כל מרובע חצר, בה יכלו הצלייניות לכבס ולהתחמם בשמש, שכן קירותיו העבים של המבנה גרמו לחדרים להיות קרים במיוחד.
+בניית המתחם הסתיימה ב- 1864 ומלבד מתחם האכסנייה והחצרות, היו במתחם שני מטבחים שהגישו ארוחות חמות ופשוטות. מתחם הלינה היה בסיסי  מאוד וכלל חללים גדולים שהכילו כמה עשרות מיטות.
+בקיץ 1914 , בזמן מלחמת העולם הראשונה, נכבש המתחם על ידי הפיקוד הגרמני: הנזירים ויתר אנשי הדת הורשו לחזור לארץ מוצאם, ואילו הצלייניות גורשו לרחובות כשכותונת לילה בלבד לעורן. אכסניית הצלייניות הפכה לאורווה של סוסי החילות הגרמנים אשר לחמו לצד הצבא העות'מאני. בשלהי שנת 1917, לאחר הניצחון הבריטי, קבעו האנגלים את מרכז שלטונם במגרש הרוסים  ואת חצר מריה הסבו לבית סוהר. 
+בתקופת המנדט הבריטי המקום שימש כבית מעצר ובמקום נתלו כמאה אסירים ערבים. רבים מאסירי המחתרות היהודיות נכלאו אף הם בבית מעצר זה, אך לא הוצאו בו להורג. שני אסירים יהודים שהיו צפויים להיתלות במקום (משה בראזני ומאיר פיינשטין), התאבדו באמצעות רימון לפני הוצאתם להורג על מנת לא למות מיד שוביהם. 
+`,
+    },
+    {
+      name: "holyTrinity",
+      waiteTime: 500,
+      title: "כנסיית השילוש הקדוש",
+      cssForPosition: {
+        position: "fixed",
+        top: "15%",
+        left: "21%",
+      },
+      positonForTextBox: {
+        position: "fixed",
+        top: "23%",
+        left: "2%",
+      },
+      textStyle: {
+        position: "relative",
+        bottom: "442px",
+        left: "13%",
+      },
+      imageBox: benjiBox,
+      info: `
+    <b>כנסיית השילוש הקדוש</b> 
+    
+    אחד מן המבנים הראשונים שהוקמו ע"י האימפריה הרוסית כחלק מן העיר הקטנה שקמה לה בכיכר מוסקבה, היא מגרש הרוסים. את הכנסייה תכנן האדריכל הרוסי מרטין איוונוביץ' אפינגר, כבזיליקה הכוללת אולם תווך ושתי סטראות ארוכות, בחזיתה אפסיס מעוגל, וחדרים מעוגלים בצדיה. הכנסייה בנויה אבן לבנה ולה שמונה מגדלים שבראשם כיפות, שהיו צבועות במשך שנים בירוק ועתה הן מצופות נחושת, ובראשן צלבים. הכנסייה מזכירה במראה את מנזר העלייה לשמים שנמצא בקרמלין שבמוסקבה.
+
+הכנסייה נבנתה מלכתחילה לשימושם של צליינים המתאכסנים באחת האכסניות במגרש הרוסים. ההנחה הייתה כי הצליינים יעדיפו לשאת את תפילותיהם החשובות בכנסיות ההיסטוריות בעיר העתיקה. לכן הכנסייה אינה גדולה, בעצם היא המבנה הקטן ביותר בשטחו מבין מבני מגרש הרוסים, אך גובהה, מיקומה והסגנון המפואר שלה הופכים אותה למבנה בולט.
+`,
+    },
+    {
+      name: "nicoYard",
+      waiteTime: 500,
+      title: "חצר ניקולאי",
+      cssForPosition: {
+        position: "fixed",
+        top: "15%",
+        left: "21%",
+      },
+      positonForTextBox: {
+        position: "fixed",
+        top: "23%",
+        left: "2%",
+      },
+      textStyle: {
+        position: "relative",
+        bottom: "442px",
+        left: "13%",
+      },
+      imageBox: benjiBox,
+      info: `
+      <b>חצר ניקולאי</b> 
       
-      68 acres of land near the Jaffa Gate, which are now part of central Jerusalem, but in the years when Russian interest in Jerusalem was renewed, it was a tract of land surrounding agricultural land outside the Old City walls.
-      The land acquisition process began in June 1857 for three years and ended in October 1860 A total of 5 plots of land were purchased, and the sixth part was granted by the Turkish authorities as a gift to the Czar.
-      This area was used before the construction of a public square, where celebrations and ceremonies or military arrangements were held. The square was called by the Turks al-Maidan.
-      The Russian plan was to establish a kind of small city, Palestinian Russia, to serve the Russian pilgrims who visit the Holy Land. It included a church (Holy Trinity Church), a hospital, the Lord's houses`,
+      אכסניית הצליינים האחרונה והגדולה ביותר שהוקמה בירושלים על ידי האגודה (IPPO האגודה הקיסרית הפרבוסלבית לפלשתינה) ונקראת על שמו של הצאר האחרון של רוסיה, ניקולאי השני. המבנה תוכנן ע"י האדריכל הפטרבורגי א"א אלקין להכיל 1,200 מקומות לינה בשלוש דרגות אירוח שונות. הדרגה הראשונה עלתה 13 קופיקות ללילה, הדרגה השנייה עלתה שני רובל ללילה והדרגה השלישית, שיועדה לאורחים מבוססים, עלתה 4 רובל ללילה. 
+עלות בניית החצר הסתכמה ב- 432,000 פרנקים (שווה ערך ל- 2.8 מיליון אירו כיום) שנתרמו על ידי ה-  IPPO
+`,
     },
   ],
 };

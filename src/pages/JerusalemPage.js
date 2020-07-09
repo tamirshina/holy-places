@@ -40,6 +40,7 @@ function JerusalemPage() {
             textBoxCss={item.positonForTextBox}
             textStyle={item.textStyle}
             id={item.name}
+            waiteTime={item.waiteTime}
           />
         );
       })}

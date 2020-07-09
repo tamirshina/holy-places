@@ -11,11 +11,13 @@ function JerusalemBox({
   textBoxCss,
   textStyle,
   id,
+  waiteTime,
 }) {
   const lang = useContext(LangContext).lang;
 
   const [isRightToLeft, setIsRightToLeft] = useState(false);
   const [isTextBoxOpen, setIsTextBoxOpen] = useState(false);
+  const shina = useRef(null);
 
   useEffect(() => {
     if (lang === "hebrew") {
@@ -23,6 +25,9 @@ function JerusalemBox({
     } else {
       setIsRightToLeft(false);
     }
+    setTimeout(() => {
+      shina.current.classList.remove("hidden");
+    }, waiteTime);
   }, [lang]);
 
   function createMarkup(str) {
@@ -44,7 +49,8 @@ function JerusalemBox({
   return (
     <>
       <div
-        className={"jerusalem-box"}
+        ref={shina}
+        className={"jerusalem-box hidden"}
         style={cssForText}
         onClick={opentextBox}
         id={id}
