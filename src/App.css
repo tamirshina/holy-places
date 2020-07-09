@@ -316,3 +316,6 @@ html {
 .jerusalem-box {
   z-index: 0;
 }
+.hidden {
+  visibility: hidden;
+}

@@ -32,12 +32,14 @@ function JerusalemPage() {
       {whichFileToUse().map((item) => {
         return (
           <JerusalemBox
+            key={item.name}
             titleToInsert={item.title}
             infoToInsert={item.info}
             cssForText={item.cssForPosition}
             textBox={item.imageBox}
             textBoxCss={item.positonForTextBox}
             textStyle={item.textStyle}
+            id={item.name}
           />
         );
       })}
