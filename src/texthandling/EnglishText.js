@@ -15,49 +15,30 @@ const englishText = {
         All of these contributed greatly to the development of the Land of Israel. The impact of this activity is still evident today, as beautiful churches adorn the landscape of the country and the big cities.`,
   },
   IsraelPage: {
-    haifa: `
-        <br>Haifa Title words and words<br>
-        Between 1850 and 1917, the Russian Empire and the Russian Church erected dozens of buildings throughout the Middle East and Palestine in particular. During these years, the industrial revolution and the progress that swept the Western world tends to reach our regions.
-        The Russian people during these years felt a deep connection with the Land of Israel and the holy sites of Christianity.
-        Many funds and resources were invested in Palestine by the Russian government and people, construction of churches and monasteries, infrastructure and a growing pilgr`,
-    seaOfGalili: `
-        <br>Haifa Title words and words<br>
-        Between 1850 and 1917, the Russian Empire and the Russian Church erected dozens of buildings throughout the Middle East and Palestine in particular. During these years, the industrial revolution and the progress that swept the Western world tends to reach our regions.
-        The Russian people during these years felt a deep connection with the Land of Israel and the holy sites of Christianity.
-        Many funds and resources were invested in Palestine by the Russian government and people, construction of churches and monasteries, infrastructure and a growing pilgr`,
+    haifa: {
+      title: `<br>St. Elijah’s Cathedral in Haifa<br>`,
+      info: `As time passed and the pilgrimage movement to the Holy Land got stronger, the presence of the pilgrims in Palestine culminated in 1913 and many pilgrims began to arrive to the port of Haifa in addition to the port of Jaffa. As a result, an additional plot of land was purchased by Archim. Leonid Sentsov in order to provide a church and shelters for the pilgrims. Initially, the Ottoman authorities denied granting a permit for the place, but eventually, they acceded; on the day that marked 300 years of the Romanov dynasty, the site of St. Elijah in Haifa opened for the general public.
+        Prophet Elijah, after whom the church is named, holds an honorary place in Christianity as according to specific sources, John the Baptist and St. Elijah were the same person and also thanks to Elijah’s war on idolatry.`,
+      css: {
+        top: "11%",
+      },
+    },
+    seaOfGalili: {
+      title: `<br>Tiberias<br>`,
+      info: `On the shore of the Sea of Galilee (Kinneret) surrounded by the breathtaking view of the Galilee the church of Mary Magdalene was built. In 1908 Archim. Leonid Sentsov acquired the land on which the church was built some years later; he described the place as such: “A magnificent oasis next to a lake”.
+        According to Christian tradition, this is the place where Jesus healed Mary Magdalene (Myriam of Magdala).
+        “And certain women, which had been healed of evil spirits and infirmities, Mary called Magdalene, out of whom went seven devils” - Gospel of Luke
+        Russian Orthodox nuns look after this gorgeous place on the Galilee hillside.`,
+      css: {
+        top: "56%",
+      },
+    },
   },
   JerusalemPage: [
     {
-      name: "russianSqure",
-      waiteTime: 100,
-      title: "Русское подворье",
-      cssForPosition: {
-        position: "fixed",
-        top: "28%",
-        left: "15%",
-      },
-      positonForTextBox: {
-        position: "fixed",
-        top: "33%",
-        left: "3%",
-      },
-      textStyle: {
-        position: "relative",
-        bottom: "471px",
-        left: "12%",
-      },
-      imageBox: russianBox,
-      info: `
-        <b>Русское подворье</b> 
-        
-        В 1857г. Османские власти согласились продать России участок земли площадью 68 дунамов вблизи  западной части Иерусалимских стен. Российский император заплатил за пять шестых участка, а одну шестую получил в подарок. Это был экстраординарный шаг османских властей: участок находился в стратегической близости от Старого города, вблизи от центральной улицы Яффо. Османским властям пришлось освободить центральную площадь, на которой происходили праздники, церемонии и военные парады. Фактически, это был первый участок, проданный России в непосредственной близости к Старому городу.
-      Так началось осуществление плана строительства городка для русских паломников на Святой земле.
-       Здесь находятся Свято-Троицкий  собор, больницу, Мариинский и Елизаветинский хостели, Русская духовная миссия Московского патриархата в Иерусалиме, здание Российского консульства и водохранилища.`,
-    },
-    {
       name: "mariaChurch",
       waiteTime: 200,
-      title: "Русское подворье",
+      title: "The Church of Mary Magdalene",
       cssForPosition: {
         position: "fixed",
         top: "37%",
@@ -74,22 +55,22 @@ const englishText = {
         left: "18%",
       },
       imageBox: mariaBox,
+      secTitle: `<b>The Church of Mary Magdalene</b>`,
       info: `
-    <b>Церковь Марии Магдалены</b> 
+    Mary Magdalene is depicted in the New Testament as one of Jesus’ central supporters, and is known as the “apostle of the apostles” (apostola apostolorum). As written in the Gospels, she was one of the women that were present during Jesus’ crucifixion and resurrection.
 
-    Новый Завет характеризует Марию Магдалену как ярую последовательницу Христа и известна как «апостол апостолов» (apostolorum apostola). Согласно Евангелию, она была одной из женщин, присутствовавших на месте распятия и воскрешения Христа.
+Upon the land that was bought in the name of Tsar Alexander III in 1882, the church that became the crown jewel of Russian presence in the Holy Land was erected. Even before the completion of the construction of the church, it was written that “in this wonderful location there is a monument worthy of the royal family and Russia’s glory. The Catholic monks tear their robes out of jealousy”.
 
-    На участке, приобретённом на имя Александра III, в 1882 г. Была построена церковь, которая должна была стать и стала венцом русского присутствия на Святой Земле. О ней написано ещё до завершения строительства: «В изумительном месте создаётся памятник, достойный царской семьи и во славу России. Католические монахи рвут на себе одежды от зависти».
-    Архимандрит Капустин, глава российской религиозной миссии, предложил Великим князьям – Сергею Александровичу и Павлу Александровичу, во время их визита в Иерусалим в мае 1881 г., построить храм в память об их матери – княгини Марии Александровны.
-    Строительные работы начались в 1885 г., а в 1888 г. состоялась церемония освящения церкви с участием греческого патриарха и главы ИППО Великого князя Сергея Александровича, а также его супруги Великой княгини Елизаветы Фёдоровны, которая просила захоронить её в этой церкви.
-    Против главных входных ворот в церковь в изгороди вокруг Масличного сада установлен древний каменный столб неизвестного происхождения, названный «столбом измены» или «столб поцелуя». Столб обозначает место, на котором Иуда Искариот поцеловал Христа, выдав его римлянам, как написано в Евангелии от Марка:
-    « И тотчас, как Он ещё говорил, приходит Иуда, один из двенадцати, и с ним множество народа с мечами и кольями, от первосвященников и книжников и старейшин. Предающий же Его дал им знак, сказав: Кого я поцелую, Тот и есть, возьмите Его и ведите осторожно. И, придя, тотчас подошёл к Нему и говорит: Рабби! Рабби! И поцеловал Его. А они возложили на Него руки свои и взяли Его».
-    После революции  в России большевики преследовали царскую семью, включая Великую княгиню Елизавету Фёдоровну. После смерти мужа она приняла монашество и посвятила свою жизнь помощи ближним. Она отказалась покинуть Россию  в целях личной безопасности и осталась со своими близкими в Москве. Елизавета была схвачена большевиками и зверски убита после года заключения в застенках. Приверженцы царя, нашедшие тело Великой княгини, просили достойно похоронить её. Тело было переправлено в Сибирь , оттуда – в захоронение царской семьи в Китае. В 1920 г., по указанию её сестры Виктории и в соответствии с волей самой Елизаветы, её останки были захоронены в церкви Марии Магдалены. Елизавета причислена к лику святых и включена в Собор новомучеников и исповедников Российских.`,
+Archim. Kapustin, head of the Russian ecclesiastical mission, proposed to the Grand Dukes Sergey Alexandrovich and Pavel Alexandrovich the idea of the construction of a temple in memory their mother, Tsarina Maria Alexandrovna, during their visit in Jerusalem in May 1881. The works began in 1885 and in 1888 a dedication ceremony was carried out with the presence of the Greek Patriarch of Jerusalem, Grand Duke and chairman of the IOPS (Imperial Orthodox Palestine Society) Sergey Alexandrovich and his wife Princess Elizabeth Feodorovna, who requested to be buried at the site of the church.
+*Opposite the church’s main entrance gate, inside the fence that surrounds the whole Gethsemane complex, an ancient stone column of unknown origin is positioned and it called the “Betrayal Column” or the “Kiss Column”. It stands there as a symbol of the place where Judas Iscariot kissed Jesus and therefore exposed him to the Roman soldiers, as recorded in the Gospel of Mark in the New Testament:
+
+“Immediately while He was still speaking, Judas, one of the twelve, came up accompanied by a crowd with swords and clubs, who were from the chief priests and the scribes and the elders. Now he who was betraying Him had given them a signal, saying, "Whomever I kiss, He is the one; seize Him and lead Him away under guard." After coming, Judas immediately went to Him, saying, "Rabbi!" and kissed Him. They laid hands on Him and seized Him”.
+Following the Bolshevik revolution in Russia, the Bolsheviks went after the royal family, a member of which was Elizabeth Feodorovna. Since her husband’s death, Elizabeth became a nun devoting all her being to the aid of others. She did not accept to leave Russia for her personal safety in order to remain with her fellow community members in Moscow. Elizabeth was caught by the Bolsheviks and after a whole year of house arrest she was brutally murdered. People still loyal to the Tsar found the Princess’ body, asked to arrange her a proper burial. Her body was first transferred to Siberia, later to the royal family’s graveyard in China and in 1920, under her young sister Victoria’s instruction and respecting Elizabeth’s own will, her remains were transferred for the last time to be buried in the church of Mary Magdalene. Elizabeth is recognized as a new saint for Russian Orthodoxy.`,
     },
     {
       name: "nyvskyChurch",
       waiteTime: 300,
-      title: "Русское подворье",
+      title: "Alexander Courtyard",
       cssForPosition: {
         position: "fixed",
         top: "45%",
@@ -108,17 +89,14 @@ const englishText = {
       },
       imageBox: alexBox,
       info: `
-        <b>Александровское подворье, церковь Александра Невского</b>
+        <b>Alexander Courtyard, Alexander Nevsky Church</b>
 
-      Единственное в Старом городе Иерусалима  и самое близкое к Храму Гроба Господня русское владение. Представляет собой археологический и архитектурный комплекс, включающий в себя порог Судных Врат со знаменитыми «игольными ушами».
-      Земля, на которой стоит подворье, была приобретена у коптского духовенства в 1859 г. Российским консульством и первоначально предназначалась для здания Консульства.
-      Однако, Консульство для удобства было построено не здесь, а на Русских постройках, за пределами Старого города.
-      В 1881 г после паломнической поездки на Святую землю великого князя Сергея Александровича на участке начались обширные археологические раскопки под руководством архимандрита Антонина Капустина, поскольку обнаружилось, что на участке сохранилось множество древностей. В 1883 г. был обнаружен фрагмент второй обводной иерусалимской стены с Порогом Судных Врат, построенный в 5 – 4 вв. до нашей эры, арка храма Адриана, фрагменты стен и остатки двух колонн базилики Храма Воскресения времён правления императора Константина Великого, а также остатки других сооружений VII – VIII вв. После завершения раскопок прямо над ними началось строительство  подворья, которое завершилось  в 1891 г. 22 мая 1896 г. на подворье освятили домовую церковь в честь святого Александра Невского.`,
+        This plot of land was purchased by Tsarist Russia in 1859 from the Ethiopian Church in order to install there the Russian consulate in Jerusalem. During the construction of the consulate powerful archaeological discoveries were made; an ancient gate and a sarcophagus believed to contain Jesus’ shroud. Owing to the unearthing of the findings, it was decided to erect a church in the aforementioned plot of land instead of the planned consulate. Archim. Kapustin together with the renowned archaeologist Conrad Schick continued the excavations, which revealed findings that correspond to the “Gates of Justice” literally portrayed in the New Testament, through which crucified Jesus passed to get to the hill of Golgotha to his death. In addition to the church, a monastery and hostel were built in Alexander’s Courtyard. The building is made of pink and red marble following the ablaq technique, typical of the Mameluke period.`,
     },
     {
       name: "ascensionChurch",
       waiteTime: 400,
-      title: "ascensionChurch",
+      title: "Church of the Ascension",
       cssForPosition: {
         position: "fixed",
         top: "48%",
@@ -136,21 +114,20 @@ const englishText = {
       },
       imageBox: aliyahBox,
       info: `
-              <b>Елионский Спасо-Вознесенский монастырь на Масличной горе</b>
+              <b>The Church of the Ascension on the Mount Of Olives</b>
               
-      Арабские местные жители назвали его «Аль Московия» в честь построивших его российских паломников, несмотря на то, что основные создатели его прибыли из других районов России.  Создания и воплощение идеи, как и многих других, принадлежат архимандриту Антонину Капустину, прибывшиму из Пермской губернии. Церковь посвящена вознесению Христа. Её центральной частью является башня высотой 64 метра. Колокол весом в 5 тонн, был первым колоколом, прозвучавшим в Иерусалиме после многих столетий, когда мусульманские власти запрещали христианам звонить в колокола. Путь, проделанный колоколом из России, весьма поэтично описан Мэиром Шалевом в книге «Эсав»: «Четыреста пятьдесят паломников волокли огромный бронзовый колокол к церкви Марии Магдалены (ошибка автора). Колокол отлили в Одессе и водрузили на специально построенную для этого телегу. Мужчины  тащили её в порт. Оттуда отплыли на пароходе «Санта Анна» в Яффо, оттуда повозку вызвались тащить женщины. Путь проделали молча. Паломники дали обет молчания до тех пор, когда колокол  будет подвешен.
-      Проделавших этот путь ещё долго можно было определить по походке: тяжёлые, будто вымученные шаги людей, идущих против сильного ветра.»
-
-      Традиция нахождения головы Иоанна Крестителя на Масличной горе – 
-Существует древнее предание, согласно которому голова Иоанна Крестителя была найдена на Масличной горе во времена римского императора Константина Великого. Голова Иоанна была отрублена, так как он доказал, что царь Ирод женился на жене своего брата Иродиаде, у которой была дочь от брата. По иудейской традиции женитьба на жене брата разрешалась только том случае, если брат умер, не оставив детей. По монашеской традиции в русском монастыре Иродиада не позволила похоронить голову Иоанна вместе с телом, а спрятала её в замке Ирода. Она опасалась, что будучи похороненным целиком, Иоанн воскреснет. 
-Ученица Иоанна обнаружила голову и вынесла её под покровом ночи из замка. Она спрятала голову в кувшине и похоронила её на Масличной горе. Согласно преданию, голова была найдена дважды. В первый раз – вельможей Иннокентием, решившим удалиться от мира и жить в одиночестве. Он купил небольшой участок земли на Масличной горе. Иннокентий решил построить небольшую церковь и натолкнулся на кувшин с головой. Перед смертью Иннокентий закопал кувшин в том же месте, в котором нашёл его. В 452 г. кувшин был найден двумя монашками, которым Иоанн Креститель трижды явился во сне. Он рассказал им, где похоронена его голова. На третий раз монашки поверили, начали искать и нашли голову.
-
-Место, где, согласно традиции, была найдена голова Иоанна Крестителя.`,
+              Among the Arabic-speaking local population the church is known as Al-Moskobiya in the name of the pilgrims who built it, even though the central figures related to the deed came from other places in Russia. The pioneer and operator of this impressive church, as also of many other initiatives of the Russian Empire, is the Archim. Antonin Kapustin whose origins are from the province of Perm. The church commemorates the ascension of Jesus to the Heavens and in its center stands a bell tower 64 metes high. This bell, which weighs 5 tons, was the first to sound in Jerusalem after hundreds of years that the Muslim authorities prohibited Christians to ring church bells.
+              The journey of the church bell from Russia is depicted in a very poetic way in the book “Esau” by Meir Shalev - “four hundred and fifty pilgrims that dragged the enormous copper church bell to the church of Mary Magdalene (error in the source). The bell was cast in Odessa and placed on a reinforced cart built especially for this purpose. The men pulled it to the port. From there they sailed on the “Santa Ana” ship to Jaffa, and there the women made their way to the special cart. Since that very moment everybody kept silent, as they swore to do until the church bell is hung in its rightful place. A long time later one could distinguish the participants of the bell’s journey by their walking: strenuous pace with a hunched back, as if they were rowing against a strong wind”.
+              
+              The tradition of finding John the Baptist’s head on the Mount of Olives:
+              One of the early Christian traditions determines that John the Baptist’s head was discovered on the Mount of Olives during the period of reign of Constantine Caesar of Rome. John the Baptist was beheaded because he rebuked King Herod for marrying Herodias, his brother’s wife; she had already given birth to a girl from his brother before the marriage. According to Torah (Pentateuch) laws, marrying a brother’s wife is permitted only in the case the brother passed away before bringing offspring to the world. According to the nuns’ tradition from the Russian monastery, Herodias did not enable the burial of John’s head together with the rest of his body; she hid the head in Herod’s palace as she feared that if his head was buried in the same place with his body, John would resurrect.
+              
+              One of John’s students discovered the head and in the dead of night she smuggled away from the palace. Then, she concealed it in an ewer, which she buried on the Mount of Olives. Following this tradition, the head was revealed twice. The first time it was discovered by a wealthy man, Innocentius, who decided to distance himself from the world and lead an ascetic life and purchased a small plot of land on the Mount of Olives. At a certain point, when Innocentius decided to build himself a small church in his plot, he bumped into the ewer with the head. Prior to his last days, Innocentius buried the ewer at the same spot in which he found it. In 452 the same container was unearthed anew owing to a recurrent dream of two monks, both of whom saw John the Baptist thrice. In the dream, John explained to the monks where his head was buried. After the third time the monks were convinced, went on to search for the head and found it.`,
     },
     {
       name: "benjeminYard",
       waiteTime: 500,
-      title: "Русское подворье",
+      title: "Benjamin’s Courtyard",
       cssForPosition: {
         position: "fixed",
         top: "15%",
@@ -168,12 +145,12 @@ const englishText = {
       },
       imageBox: benjiBox,
       info: `
-    <b>Вениаминовское подворье в Иерусалиме</b> 
+    <b>Benjamin’s Courtyard</b> 
     
-    Названо в честь иеромонаха Вениамина, впервые прибывшего на Святую землю в 1846 г. и влюбившегося в неё подобно многим другим. Во время русско-турецкой войны лечил раненых на фронте и заслужил звание Героя.
-    В 1887 г. Вениамин открыл на собранные им пожертвования общежитие в Западном Иерусалиме. В отличие от сезонных общежитий (сезон паломничества длился с октября до мая) ИППО, общежитие Вениамина стало приютом для тех, кто хотел остаться и жить в Иерусалиме. За символическую плату они могли снять там комнату. Кроме того, на подворье были комнаты, в которых могли бесплатно проживать члены ИППО. Вениамин был очень уважаем Иерусалимским духовенством, его похоронили в Свято-Троицком Соборе.
-    Подворье Вениамин завещал ИППО и переписал его на имя председателя – Великого князя Сергея Александровича. 
-    На протяжении многих лет на подворье размещалась гуманитарная организация «Йад Сара».`,
+    Named after the Christian monk Benjamin who firstly arrived to Palestine in 1846 and, like others, fell in love with the Holy Land. During the Ottoman-Russian war he treated injured soldiers in the Ottoman front and for that he was awarded a medal of honor.
+In 1887, using funds he raised by himself, Benjamin opened a hostel in the Jewish quarter in the old city. Contrary to the seasonal hostels (pilgrimage season usually stretches from October to May) of the IOPS, Benjamin’s hostel was intended to be a kind of shelter for people who wanted to spend the rest of their days in Jerusalem; in return of a minimal payment every person could let a room. There were also shared rooms in the hostel in which the people of the IOPS could stay free of charge. The monk Benjamin was very dear to the clergy and his funeral was performed in the church of the Holy Trinity. He passed the ownership of his hostel to the IOPS and wrote the rights of the asset to the chairman of the Society, Sergey Alexandrovich.
+
+Over the course of many years the building housed the NGO “Yad Sarah”.`,
     },
   ],
   russianSqure: [

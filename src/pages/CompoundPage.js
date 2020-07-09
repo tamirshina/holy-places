@@ -7,7 +7,7 @@ import hebrewText from "../texthandling/HebrewText";
 import "../App.css";
 import JerusalemBox from "../fragments/JerusalemBox";
 
-function JerusalemPage() {
+function CompoundPage() {
   const { lang } = useContext(LangContext);
 
   function whichFileToUse() {
@@ -49,4 +49,4 @@ function JerusalemPage() {
   );
 }
 
-export default JerusalemPage;
+export default CompoundPage;

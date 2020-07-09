@@ -12,6 +12,7 @@ function JerusalemBox({
   textStyle,
   id,
   waiteTime,
+  secTitle,
 }) {
   const lang = useContext(LangContext).lang;
 
@@ -62,6 +63,7 @@ function JerusalemBox({
         <div style={textBoxCss} className="overlay-bold" id={id}>
           <img src={textBox} alt="textBox" />
           <div className={"text-jeru-box"} style={textStyle}>
+            <p angerouslySetInnerHTML={createMarkup(secTitle)} />
             <p dangerouslySetInnerHTML={createMarkup(infoToInsert)} />
           </div>
         </div>
