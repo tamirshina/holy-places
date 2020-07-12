@@ -29,20 +29,18 @@ function JerusalemBox({
     setTimeout(() => {
       shina.current.classList.remove("hidden");
     }, waiteTime);
-  }, [lang]);
+  }, [lang, waiteTime]);
 
   function createMarkup(str) {
     return { __html: str };
   }
   function opentextBox() {
-    console.log("shinnaaa");
     setIsTextBoxOpen(true);
     setTimeout(function () {
       window.addEventListener("click", closeTextBox);
     }, 1000);
   }
   function closeTextBox() {
-    console.log("tamirr");
     window.removeEventListener("click", closeTextBox);
     setIsTextBoxOpen(false);
   }
@@ -51,19 +49,19 @@ function JerusalemBox({
     <>
       <div
         ref={shina}
-        className={"jerusalem-box hidden"}
+        className={"jerusalem-box container-to-fade hidden"}
         style={cssForText}
         onClick={opentextBox}
         id={id}
       >
         <h1 className={"add-to-title-jeru-box"}>{titleToInsert}</h1>
-        <img src={pin} alt="pin" style={cssForText} />
+        <img src={pin} alt="pin" />
       </div>
       {isTextBoxOpen ? (
         <div style={textBoxCss} className="overlay-bold" id={id}>
           <img src={textBox} alt="textBox" />
           <div className={"text-jeru-box"} style={textStyle}>
-            <p angerouslySetInnerHTML={createMarkup(secTitle)} />
+            <p dngerouslySetInnerHTML={createMarkup(secTitle)} />
             <p dangerouslySetInnerHTML={createMarkup(infoToInsert)} />
           </div>
         </div>

@@ -35,11 +35,11 @@ const hebrewText = {
     {
       name: "mariaChurch",
       waiteTime: 200,
-      title: "נסיית מריה מגדלנה",
+      title: "כנסיית מריה מגדלנה",
       cssForPosition: {
         position: "fixed",
-        top: "37%",
-        right: "4%",
+        top: "13%",
+        right: "21%",
       },
       positonForTextBox: {
         position: "fixed",
@@ -72,8 +72,8 @@ const hebrewText = {
       title: "חצר אלכסנדר",
       cssForPosition: {
         position: "fixed",
-        top: "45%",
-        right: "54%",
+        top: "38%",
+        right: "51%",
       },
       positonForTextBox: {
         position: "fixed",
@@ -98,8 +98,8 @@ const hebrewText = {
       title: "כנסיית העלייה",
       cssForPosition: {
         position: "fixed",
-        top: "48%",
-        right: "3%",
+        top: "0%",
+        right: "6%",
       },
       positonForTextBox: {
         position: "fixed",
@@ -131,8 +131,8 @@ const hebrewText = {
       title: "חצר בנימין",
       cssForPosition: {
         position: "fixed",
-        top: "15%",
-        left: "21%",
+        top: "10%",
+        left: "12%",
       },
       positonForTextBox: {
         position: "fixed",
@@ -153,108 +153,114 @@ const hebrewText = {
 במשך שנים המבנה אוכלס על "ידי עמותת יד שרה.`,
     },
   ],
-  russianSqure: [
-    {
-      name: "russianSqure",
-      waiteTime: 100,
-      title: "The Russian Compound",
-      cssForPosition: {
-        position: "fixed",
-        top: "28%",
-        left: "15%",
-      },
-      positonForTextBox: {
-        position: "fixed",
-        top: "33%",
-        left: "3%",
-      },
-      textStyle: {
-        position: "relative",
-        bottom: "471px",
-        left: "12%",
-      },
-      imageBox: russianBox,
-      info: `
-        <b>The Russian Compound</b> 
-        
-        In 1857 the Ottomans were willing to sell to Russia a land plot of 68 square kilometers located adjacent to the old city walls to the west. The Tsar paid, as a matter of fact, for five sixths of the land value, and the remaining sixth was granted to him as a present by the Ottomans. This was an extraordinary move, because this plot outmatches the old city from a strategic point of view; it is very close to the central Jaffa road, and compelled the Ottoman authorities to vacate the square that was used for celebrations, ceremonies and military parades. Actually, the Russian Compound was the first site with great proximity to the old city walls in which the Ottomans permitted constructions. The vision of Russian Palestine begins to materialize in a prime location of developing Jerusalem.
-The plan was to create a kind of a small town that serves Russian pilgrims that sojourn the Holy Land. It included the church of the Holy Trinity, a hospital, the hostels in honor of Maria and Elizabeth, a building hosting the ecclesiastical mission, the edifice of the Russian consulate and water reserves.
-`,
+  russianSqure: {
+    title: "מגרש הרוסים",
+    position: {
+      top: "23%",
+      left: "13.5%",
     },
-    {
-      name: "religiousMission",
-      waiteTime: 200,
-      title: "המשלחת הדתית",
-      cssForPosition: {
-        position: "fixed",
-        top: "37%",
-        right: "4%",
+    itemsArray: [
+      {
+        name: "russianSqure",
+        waiteTime: 700,
+        title: "מגרש הרוסים",
+        cssForPosition: {
+          position: "fixed",
+          top: "16%",
+          left: "44%",
+        },
+        positonForTextBox: {
+          position: "fixed",
+          top: "33%",
+          left: "3%",
+        },
+        textStyle: {
+          position: "relative",
+          bottom: "471px",
+          left: "12%",
+        },
+        imageBox: russianBox,
+        info: `
+        <b>מגרש הרוסים</b> 
+        
+        בשנת 1857 ניאותו העות 'מאנים למכור לרוסיה שטח אדמה של 68 דונם בנקודה סמוכה מאוד לחומות העיר העתיקה ממערב. הצאר שילם בפועל על חמש שישיות מהקרקע, ואילו החלק השישי ניתן לו במתנה על ידי העות'מאנים. היה זה צעד יוצא דופן ביותר, שכן המקום חולש על העיר העתיקה מבחינה אסטרטגית; הוא קרוב מאוד לדרך יפו הראשית, ואף אילץ את העות'מאנים לפנות את הכיכר ששימשה עבור חגיגות, טקסים ומסדרים צבאיים. למעשה, מגרש הרוסים היה אחד המתחמים הראשונים בו העות'מאנים התירו לבנות כה קרוב לחומת העיר העתיקה. החזון להקים את רוסיה הפלשתינית יוצא לדרך בירושלים המתחדשת בפריים לוקיישן.
+התוכנית הייתה להקים מעין עיר קטנה שתשרת את הצליינים הרוסים הפוקדים את ארץ הקודש. היא כללה את כנסיית השילוש הקדוש, בית חולים, האכסניות ע"ש מריה ואליזבטה, מבנה למשלחת הדתית, מבנה לקונסוליה הרוסית ומאגרי מים.
+`,
       },
-      positonForTextBox: {
-        position: "fixed",
-        top: "3%",
-        left: "32%",
-      },
-      textStyle: {
-        position: "relative",
-        bottom: "619px",
-        left: "18%",
-      },
-      imageBox: mariaBox,
-      info: `
+      {
+        name: "religiousMission",
+        waiteTime: 200,
+        title: "המשלחת הדתית",
+        cssForPosition: {
+          position: "fixed",
+          top: "45%",
+          right: "27%",
+        },
+        positonForTextBox: {
+          position: "fixed",
+          top: "3%",
+          left: "32%",
+        },
+        textStyle: {
+          position: "relative",
+          bottom: "619px",
+          left: "18%",
+        },
+        imageBox: mariaBox,
+        info: `
     <b>בניין המשלחת הדתית</b> 
 
     המבנה הוקם על מנת לשמש את חברי המשלחת הרוסית הדתית למזרח התיכון. המבנה כלל את המשרדים שריכזו את הפעילות בארץ ישראל, לבנון וסוריה, חדרי לינה ואירוח  לאורחים רמי דרג, קבלה וספרייה. המבנה בנוי בצורה של ארבעה מסדרונות ארוכים בני שתי קומות ובמרכזם קפלה לתפילה. 
     גולת הכותרת של המבנה היא הספרייה הענפה המכילה עד היום את אוצר הארכיון של הכנסייה הרוסית בישראל ובנוסף אלפי ספרים וכותרים שנתרמו על ידי הנסיך קונסטנטין. כיום הספרייה עדיין פעילה ומכילה מעל ל- 17,000 כותרים. 
     המבנה נותר מאוכלס על ידי נציגים של הכנסייה הרוסית מאז הקמתו ועד היום במשך מעל 150 שנה. באותה תקופה התחלף  השלטון בארץ מספר פעמים, מן הממשל העות'מאני לממשל האנגלי ובסוף לממשל הישראלי. חלקו של המבנה מאכלס כיום את בית המשפט המחוזי של ירושלים.`,
-    },
-    {
-      name: "elisYard",
-      waiteTime: 300,
-      title: "Elizabeth’s Courtyard",
-      cssForPosition: {
-        position: "fixed",
-        top: "45%",
-        right: "54%",
       },
-      positonForTextBox: {
-        position: "fixed",
-        top: "3%",
-        left: "40%",
-      },
-      textStyle: {
-        position: "relative",
-        bottom: "565px",
-        left: "16%",
-        height: "359px",
-      },
-      imageBox: alexBox,
-      info: `
+      {
+        name: "elisYard",
+        waiteTime: 300,
+        title: "חצר אליזבטה",
+        cssForPosition: {
+          position: "fixed",
+          top: "46%",
+          right: "62%",
+        },
+        positonForTextBox: {
+          position: "fixed",
+          top: "3%",
+          left: "40%",
+        },
+        textStyle: {
+          position: "relative",
+          bottom: "565px",
+          left: "16%",
+          height: "359px",
+        },
+        imageBox: alexBox,
+        info: `
         <b>חצר אליזבטה</b>
 
         נבנתה בשנת 1864 על ידי האדריכל מרטין איוונוביץ אפינגר כאכסנייה לגברים בת קומה אחת ובה 300 מקומות לינה, המעוצבת בסגנון רנסנס רוסי. על אף כמות המיטות הגדולה במקום, במשך עונת הצליינים מאוקטובר ועד אפריל התפוסה במקום הייתה מלאה. מיטות נוספות היו ממוקמות במסדרונות ואף אוהלים הוקמו לאחסן את עשרות הצליינים. האכסנייה קרויה על שם אלישבע, אימו של יוחנן המטביל, הנקראת אליזבטה ברוסית. `,
-    },
-    {
-      name: "mariaYard",
-      waiteTime: 400,
-      title: "אכסניית מריה",
-      cssForPosition: {
-        position: "fixed",
-        top: "48%",
-        right: "3%",
       },
-      positonForTextBox: {
-        position: "fixed",
-        top: "29%",
-        left: "34%",
-      },
-      textStyle: {
-        position: "relative",
-        bottom: "618px",
-        left: "12%",
-      },
-      imageBox: aliyahBox,
-      info: `
+      {
+        name: "mariaYard",
+        waiteTime: 400,
+        title: "אכסניית מריה",
+        cssForPosition: {
+          position: "fixed",
+          top: "15%",
+          right: "15%",
+        },
+        positonForTextBox: {
+          position: "fixed",
+          top: "29%",
+          left: "34%",
+        },
+        textStyle: {
+          position: "relative",
+          bottom: "618px",
+          left: "12%",
+        },
+        imageBox: aliyahBox,
+        info: `
               <b>אכסניית הנשים ע"ש מריה</b>
               
               "אכסניית הנשים הצלייניות" נקראה על שם מריה פיודורובנה, אשתו של הצאר אלכסנדר השלישי ואמו של הצאר האחרון ניקולאי השני. המבנה תוכנן על ידי "אדריכל הבית" של ה-IPPO, מרטין איוונוביץ' אפינגר. המבנה עצמו הורכב משני מבנים מרובעים מחוברים זה לזה ובמרכזו של כל מרובע חצר, בה יכלו הצלייניות לכבס ולהתחמם בשמש, שכן קירותיו העבים של המבנה גרמו לחדרים להיות קרים במיוחד.
@@ -262,62 +268,63 @@ The plan was to create a kind of a small town that serves Russian pilgrims that 
 בקיץ 1914 , בזמן מלחמת העולם הראשונה, נכבש המתחם על ידי הפיקוד הגרמני: הנזירים ויתר אנשי הדת הורשו לחזור לארץ מוצאם, ואילו הצלייניות גורשו לרחובות כשכותונת לילה בלבד לעורן. אכסניית הצלייניות הפכה לאורווה של סוסי החילות הגרמנים אשר לחמו לצד הצבא העות'מאני. בשלהי שנת 1917, לאחר הניצחון הבריטי, קבעו האנגלים את מרכז שלטונם במגרש הרוסים  ואת חצר מריה הסבו לבית סוהר. 
 בתקופת המנדט הבריטי המקום שימש כבית מעצר ובמקום נתלו כמאה אסירים ערבים. רבים מאסירי המחתרות היהודיות נכלאו אף הם בבית מעצר זה, אך לא הוצאו בו להורג. שני אסירים יהודים שהיו צפויים להיתלות במקום (משה בראזני ומאיר פיינשטין), התאבדו באמצעות רימון לפני הוצאתם להורג על מנת לא למות מיד שוביהם. 
 `,
-    },
-    {
-      name: "holyTrinity",
-      waiteTime: 500,
-      title: "כנסיית השילוש הקדוש",
-      cssForPosition: {
-        position: "fixed",
-        top: "15%",
-        left: "21%",
       },
-      positonForTextBox: {
-        position: "fixed",
-        top: "23%",
-        left: "2%",
-      },
-      textStyle: {
-        position: "relative",
-        bottom: "442px",
-        left: "13%",
-      },
-      imageBox: benjiBox,
-      info: `
+      {
+        name: "holyTrinity",
+        waiteTime: 500,
+        title: "כנסיית השילוש הקדוש",
+        cssForPosition: {
+          position: "fixed",
+          top: "2%",
+          left: "61%",
+        },
+        positonForTextBox: {
+          position: "fixed",
+          top: "23%",
+          left: "2%",
+        },
+        textStyle: {
+          position: "relative",
+          bottom: "442px",
+          left: "13%",
+        },
+        imageBox: benjiBox,
+        info: `
     <b>כנסיית השילוש הקדוש</b> 
     
     אחד מן המבנים הראשונים שהוקמו ע"י האימפריה הרוסית כחלק מן העיר הקטנה שקמה לה בכיכר מוסקבה, היא מגרש הרוסים. את הכנסייה תכנן האדריכל הרוסי מרטין איוונוביץ' אפינגר, כבזיליקה הכוללת אולם תווך ושתי סטראות ארוכות, בחזיתה אפסיס מעוגל, וחדרים מעוגלים בצדיה. הכנסייה בנויה אבן לבנה ולה שמונה מגדלים שבראשם כיפות, שהיו צבועות במשך שנים בירוק ועתה הן מצופות נחושת, ובראשן צלבים. הכנסייה מזכירה במראה את מנזר העלייה לשמים שנמצא בקרמלין שבמוסקבה.
 
 הכנסייה נבנתה מלכתחילה לשימושם של צליינים המתאכסנים באחת האכסניות במגרש הרוסים. ההנחה הייתה כי הצליינים יעדיפו לשאת את תפילותיהם החשובות בכנסיות ההיסטוריות בעיר העתיקה. לכן הכנסייה אינה גדולה, בעצם היא המבנה הקטן ביותר בשטחו מבין מבני מגרש הרוסים, אך גובהה, מיקומה והסגנון המפואר שלה הופכים אותה למבנה בולט.
 `,
-    },
-    {
-      name: "nicoYard",
-      waiteTime: 500,
-      title: "חצר ניקולאי",
-      cssForPosition: {
-        position: "fixed",
-        top: "15%",
-        left: "21%",
       },
-      positonForTextBox: {
-        position: "fixed",
-        top: "23%",
-        left: "2%",
-      },
-      textStyle: {
-        position: "relative",
-        bottom: "442px",
-        left: "13%",
-      },
-      imageBox: benjiBox,
-      info: `
+      {
+        name: "nicoYard",
+        waiteTime: 600,
+        title: "חצר ניקולאי",
+        cssForPosition: {
+          position: "fixed",
+          top: "57%",
+          left: "12%",
+        },
+        positonForTextBox: {
+          position: "fixed",
+          top: "23%",
+          left: "2%",
+        },
+        textStyle: {
+          position: "relative",
+          bottom: "442px",
+          left: "13%",
+        },
+        imageBox: benjiBox,
+        info: `
       <b>חצר ניקולאי</b> 
       
       אכסניית הצליינים האחרונה והגדולה ביותר שהוקמה בירושלים על ידי האגודה (IPPO האגודה הקיסרית הפרבוסלבית לפלשתינה) ונקראת על שמו של הצאר האחרון של רוסיה, ניקולאי השני. המבנה תוכנן ע"י האדריכל הפטרבורגי א"א אלקין להכיל 1,200 מקומות לינה בשלוש דרגות אירוח שונות. הדרגה הראשונה עלתה 13 קופיקות ללילה, הדרגה השנייה עלתה שני רובל ללילה והדרגה השלישית, שיועדה לאורחים מבוססים, עלתה 4 רובל ללילה. 
 עלות בניית החצר הסתכמה ב- 432,000 פרנקים (שווה ערך ל- 2.8 מיליון אירו כיום) שנתרמו על ידי ה-  IPPO
 `,
-    },
-  ],
+      },
+    ],
+  },
 };
 export { hebrewText as default };

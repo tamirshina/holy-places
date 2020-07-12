@@ -4,10 +4,12 @@ import LangContext from "../LangContext";
 import russianText from "../texthandling/RussianText";
 import englishText from "../texthandling/EnglishText";
 import hebrewText from "../texthandling/HebrewText";
+import CompoundBox from "../fragments/CompoundBox";
+import jerusalemVideo from "../assets/compound-screen/transition-russian-compound.mp4";
 import "../App.css";
 import JerusalemBox from "../fragments/JerusalemBox";
 
-function JerusalemPage() {
+function JerusalemPage({ moveToCompoundPage }) {
   const { lang } = useContext(LangContext);
 
   function whichFileToUse() {
@@ -20,14 +22,13 @@ function JerusalemPage() {
       return russianText.JerusalemPage;
     }
   }
-
   return (
     <>
-      <img
-        id="israelPageVideo"
-        src={background}
+      <video
+        poster={background}
+        id="jerusalemPageVideo"
+        src={jerusalemVideo}
         className="fullBackground"
-        alt="backgroundPic"
       />
       {whichFileToUse().map((item) => {
         return (
@@ -45,6 +46,7 @@ function JerusalemPage() {
           />
         );
       })}
+      <CompoundBox moveToCompoundPage={moveToCompoundPage} />
     </>
   );
 }

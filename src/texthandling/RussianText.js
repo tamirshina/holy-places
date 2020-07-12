@@ -34,11 +34,11 @@ const russianText = {
     {
       name: "mariaChurch",
       waiteTime: 200,
-      title: "Русское подворье",
+      title: "Церковь Марии Магдалены",
       cssForPosition: {
         position: "fixed",
-        top: "37%",
-        right: "4%",
+        top: "13%",
+        right: "21%",
       },
       positonForTextBox: {
         position: "fixed",
@@ -69,8 +69,8 @@ const russianText = {
       title: "Русское подворье",
       cssForPosition: {
         position: "fixed",
-        top: "45%",
-        right: "54%",
+        top: "38%",
+        right: "48%",
       },
       positonForTextBox: {
         position: "fixed",
@@ -95,11 +95,11 @@ const russianText = {
     {
       name: "ascensionChurch",
       waiteTime: 400,
-      title: "ascensionChurch",
+      title: "Вознесенский монастырь",
       cssForPosition: {
         position: "fixed",
-        top: "48%",
-        right: "3%",
+        top: "0%",
+        right: "6%",
       },
       positonForTextBox: {
         position: "fixed",
@@ -125,11 +125,11 @@ const russianText = {
     {
       name: "benjeminYard",
       waiteTime: 500,
-      title: "Русское подворье",
+      title: "Вениаминовское подворье",
       cssForPosition: {
         position: "fixed",
-        top: "15%",
-        left: "21%",
+        top: "10%",
+        left: "6%",
       },
       positonForTextBox: {
         position: "fixed",
@@ -151,110 +151,116 @@ const russianText = {
     На протяжении многих лет на подворье размещалась гуманитарная организация «Йад Сара».`,
     },
   ],
-  russianSqure: [
-    {
-      name: "russianSqure",
-      waiteTime: 100,
-      title: "Русское подворье",
-      cssForPosition: {
-        position: "fixed",
-        top: "28%",
-        left: "15%",
-      },
-      positonForTextBox: {
-        position: "fixed",
-        top: "33%",
-        left: "3%",
-      },
-      textStyle: {
-        position: "relative",
-        bottom: "471px",
-        left: "12%",
-      },
-      imageBox: russianBox,
-      info: `
+  russianSqure: {
+    title: "Русское подворье",
+    position: {
+      top: "23%",
+      left: "11.5%",
+    },
+    itemsArray: [
+      {
+        name: "russianSqure",
+        waiteTime: 700,
+        title: "Русское подворье",
+        cssForPosition: {
+          position: "fixed",
+          top: "16%",
+          left: "42%",
+        },
+        positonForTextBox: {
+          position: "fixed",
+          top: "33%",
+          left: "3%",
+        },
+        textStyle: {
+          position: "relative",
+          bottom: "471px",
+          left: "12%",
+        },
+        imageBox: russianBox,
+        info: `
         <b>Русское подворье</b> 
         
         В 1857г. Османские власти согласились продать России участок земли площадью 68 дунамов вблизи  западной части Иерусалимских стен. Российский император заплатил за пять шестых участка, а одну шестую получил в подарок. Это был экстраординарный шаг османских властей: участок находился в стратегической близости от Старого города, вблизи от центральной улицы Яффо. Османским властям пришлось освободить центральную площадь, на которой происходили праздники, церемонии и военные парады. Фактически, это был первый участок, проданный России в непосредственной близости к Старому городу.
       Так началось осуществление плана строительства городка для русских паломников на Святой земле.
        Здесь находятся Свято-Троицкий  собор, больницу, Мариинский и Елизаветинский хостели, Русская духовная миссия Московского патриархата в Иерусалиме, здание Российского консульства и водохранилища.`,
-    },
-    {
-      name: "religiousMission",
-      waiteTime: 200,
-      title: "Здание духовной миссии",
-      cssForPosition: {
-        position: "fixed",
-        top: "37%",
-        right: "4%",
       },
-      positonForTextBox: {
-        position: "fixed",
-        top: "3%",
-        left: "32%",
-      },
-      textStyle: {
-        position: "relative",
-        bottom: "619px",
-        left: "18%",
-      },
-      imageBox: mariaBox,
-      info: `
+      {
+        name: "religiousMission",
+        waiteTime: 200,
+        title: "Здание духовной миссии",
+        cssForPosition: {
+          position: "fixed",
+          top: "45%",
+          right: "23%",
+        },
+        positonForTextBox: {
+          position: "fixed",
+          top: "3%",
+          left: "32%",
+        },
+        textStyle: {
+          position: "relative",
+          bottom: "619px",
+          left: "18%",
+        },
+        imageBox: mariaBox,
+        info: `
     <b>Здание духовной миссии</b> 
 
     Здание было построено для членов Русской духовной миссии на Ближнем Востоке. Отсюда координировалась деятельность миссии в Палестине, Ливане и Сирии, спальни и гостиные для высокопоставленных гостей, комната для приёмов и библиотека. Двухэтажная постройка состоит из четырёх длинных коридоров, в центре которых находится часовня.
 Самым примечальным в здании стала огромная библиотека, содержащая архивные сокровища Русской православной церкви в Израиле, а также тысячи книг и рукописей, пожертвованных Великим князем Константином. Библиотека, содержащая около 17,000 томов, существует и функционирует и по сей день.
 В здании проживают в течение последних 150 лет представители Русской церкви. За эти годы трижды поменялась власть в стране: турецкая, английская и, наконец, израильская.
 `,
-    },
-    {
-      name: "elisYard",
-      waiteTime: 300,
-      title: "Елизаветинское подворье",
-      cssForPosition: {
-        position: "fixed",
-        top: "45%",
-        right: "54%",
       },
-      positonForTextBox: {
-        position: "fixed",
-        top: "3%",
-        left: "40%",
-      },
-      textStyle: {
-        position: "relative",
-        bottom: "565px",
-        left: "16%",
-        height: "359px",
-      },
-      imageBox: alexBox,
-      info: `
+      {
+        name: "elisYard",
+        waiteTime: 300,
+        title: "Елизаветинское подворье",
+        cssForPosition: {
+          position: "fixed",
+          top: "47%",
+          right: "57%",
+        },
+        positonForTextBox: {
+          position: "fixed",
+          top: "3%",
+          left: "40%",
+        },
+        textStyle: {
+          position: "relative",
+          bottom: "565px",
+          left: "16%",
+          height: "359px",
+        },
+        imageBox: alexBox,
+        info: `
         <b>Елизаветинское подворье</b>
 
         Построено в 1864 г. архитектором Мартином Ивановичем Эппингером для размещения русских православных паломников-мужчин. Это одноэтажное здание на 300 мест построено в стиле русского Ренессанса. Несмотря на большое количество кроватей, в период с октября до апреля, подворье было заполнено паломниками, дополнительные кровати стояли в коридорах, а палатки разбивали под открытым небом.
         Подворье было названо в честь матери Иоанна Крестителя – Праведной Елисаветы.`,
-    },
-    {
-      name: "mariaYard",
-      waiteTime: 400,
-      title: "Женское общежитеи имени Марии",
-      cssForPosition: {
-        position: "fixed",
-        top: "48%",
-        right: "3%",
       },
-      positonForTextBox: {
-        position: "fixed",
-        top: "29%",
-        left: "34%",
-      },
-      textStyle: {
-        position: "relative",
-        bottom: "618px",
-        left: "12%",
-      },
-      imageBox: aliyahBox,
-      info: `
+      {
+        name: "mariaYard",
+        waiteTime: 400,
+        title: "общежитие Марии",
+        cssForPosition: {
+          position: "fixed",
+          top: "15%",
+          right: "12%",
+        },
+        positonForTextBox: {
+          position: "fixed",
+          top: "29%",
+          left: "34%",
+        },
+        textStyle: {
+          position: "relative",
+          bottom: "618px",
+          left: "12%",
+        },
+        imageBox: aliyahBox,
+        info: `
               <b>Женское общежитеи имени Марии</b>
               
               Общежитие для паломниц, названное в честь Марии Фёдоровны, жены царя Александра Третьего и матери последнего русского царя Николая Второго.
@@ -263,62 +269,63 @@ const russianText = {
               В 1914 г., во время Первой Мировой войны, в здании расположились немецкие службы тыла. Германия была союзницей Турции в войне.  Монахам и другим служителям церкви разрешили вернуться в страны исхода, а паломниц выгнали прямо на улицу в одних ночных рубашках.
               В общежитии разместили немецкие кавалерийские конюшни.
               В конце 1917 г., после победы Великобритании в войне, англичане решили, что  их учреждения будут расположены на Русском подворье, а общежитие было превращено в тюрьму. В период английского мандата здание превратилось в дом предварительного заключения, там было повешено около сотни арабских заключённых. Множество участников еврейского подполья также содержались в камерах Русского подворья, но не были казнены. Двое еврейских заключённых, приговорённых к смертной казни (Моше Баразани и Меир Файнштейн), подорвали себя гранатой, чтобы не принять смерть от врагов.`,
-    },
-    {
-      name: "holyTrinity",
-      waiteTime: 500,
-      title: "Собор Святой Троицы",
-      cssForPosition: {
-        position: "fixed",
-        top: "15%",
-        left: "21%",
       },
-      positonForTextBox: {
-        position: "fixed",
-        top: "23%",
-        left: "2%",
-      },
-      textStyle: {
-        position: "relative",
-        bottom: "442px",
-        left: "13%",
-      },
-      imageBox: benjiBox,
-      info: `
+      {
+        name: "holyTrinity",
+        waiteTime: 500,
+        title: "Собор Святой Троицы",
+        cssForPosition: {
+          position: "fixed",
+          top: "2%",
+          left: "61%",
+        },
+        positonForTextBox: {
+          position: "fixed",
+          top: "23%",
+          left: "2%",
+        },
+        textStyle: {
+          position: "relative",
+          bottom: "442px",
+          left: "13%",
+        },
+        imageBox: benjiBox,
+        info: `
     <b>Собор Святой Троицы</b> 
     
     Одно из первых строений  принадлежавших Российской империи, часть малого города на «Московской» площади. Собор был спроектирован архитектором Мартином Ивановичем Эппингером.
 Свято-Троицкий собор представляет собой храм в неовизантийском стиле с десятью главами, двумя приделами и двумя колокольнями. Собор облицован  розовато-кремовым камнем,   10 зелёных куполов покрыты тульским бронзовым литьём. На куполах установлены православные кресты. 
 Собор напоминает Церковь Вознесения, находящуюся в Московском Кремле.
 Изначально Собор был построен для паломников, проживающих на Русском подворье. Предполагалось, что паломники будут, в основном, молиться в древних храмах Старого города. Поэтому Собор небольшой, он является самым малым сооружением Русского подворья, однако его высота, расположение и величественный стиль делают его выделяют его на фоне окружающих строений.`,
-    },
-    {
-      name: "nicoYard",
-      waiteTime: 500,
-      title: "Николаевское подворье",
-      cssForPosition: {
-        position: "fixed",
-        top: "15%",
-        left: "21%",
       },
-      positonForTextBox: {
-        position: "fixed",
-        top: "23%",
-        left: "2%",
-      },
-      textStyle: {
-        position: "relative",
-        bottom: "442px",
-        left: "13%",
-      },
-      imageBox: benjiBox,
-      info: `
+      {
+        name: "nicoYard",
+        waiteTime: 600,
+        title: "Николаевское подворье",
+        cssForPosition: {
+          position: "fixed",
+          top: "57%",
+          left: "5%",
+        },
+        positonForTextBox: {
+          position: "fixed",
+          top: "23%",
+          left: "2%",
+        },
+        textStyle: {
+          position: "relative",
+          bottom: "442px",
+          left: "13%",
+        },
+        imageBox: benjiBox,
+        info: `
     <b>Николаевское подворье</b> 
     
     The last hostel for pilgrims built and the biggest one of all constructed in Jerusalem by the IOPS (Imperial Orthodox Palestine Society) and bears the name of Russia’s last Tsar, Nikolai II. The building was planned by the Saint-Peterburg architect Alexey Efimovich Elkin to contain 1,200 beds in three different levels of accommodation. The basic level cost 13 kupikas per night, the medium level cost 2 rubles per night and the prime level, intended for established people, cost 4 rubles per night.
 The total construction cost of the courtyard added up to 432,000 francs (equivalent to 2.8 million euros today) which were donated by the IOPS.
 `,
-    },
-  ],
+      },
+    ],
+  },
 };
 export { russianText as default };

@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import background from "../assets/Screen-03/03-background.png";
+import background from "../assets/compound-screen/Russian-Compound_background2.png";
 import LangContext from "../LangContext";
 import russianText from "../texthandling/RussianText";
 import englishText from "../texthandling/EnglishText";
@@ -12,12 +12,12 @@ function CompoundPage() {
 
   function whichFileToUse() {
     if (lang === "hebrew") {
-      return hebrewText.JerusalemPage;
+      return hebrewText.russianSqure.itemsArray;
     }
     if (lang === "english") {
-      return englishText.JerusalemPage;
+      return englishText.russianSqure.itemsArray;
     } else {
-      return russianText.JerusalemPage;
+      return russianText.russianSqure.itemsArray;
     }
   }
 

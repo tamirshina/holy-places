@@ -144,11 +144,10 @@ html {
 }
 .add-to-title-jeru-box {
   position: relative;
-  top: -17px;
+  top: 36px;
 }
 .isreal-text-title {
   font-size: 19px;
-  margin-bottom: -6px;
 }
 .image-text-container {
   position: fixed;
@@ -189,6 +188,14 @@ html {
   direction: rtl;
   white-space: pre-line;
   margin-top: 0;
+}
+.info-Israel-He-Text {
+  font-family: Papyrus;
+  font-size: 19px;
+  text-align: right;
+  line-height: 1.6;
+  direction: rtl;
+  white-space: pre-line;
 }
 .addMargin {
   margin-right: 15px;
@@ -292,7 +299,6 @@ html {
 }
 .heb-israel-text-title {
   direction: rtl;
-  margin-bottom: 8px;
 }
 .text-bos-jeru {
   position: fixed;
@@ -315,7 +321,18 @@ html {
 }
 .jerusalem-box {
   z-index: 0;
+  text-align: center;
 }
 .hidden {
   visibility: hidden;
+}
+.click-point-container {
+  position: fixed;
+  top: 23%;
+  left: 9.5%;
+  text-align: center;
+}
+.click-point-title-container {
+  position: relative;
+  top: 17px;
 }

@@ -35,7 +35,7 @@ function IsraelPageText({ infoToInsert, cssForText, hebCssFortext }) {
       <p
         className={
           isRightToLeft
-            ? "infoHeText add-to-textbox-israel-page"
+            ? "info-Israel-He-Text add-to-textbox-israel-page"
             : "infoEnText add-to-textbox-israel-page"
         }
         dangerouslySetInnerHTML={createMarkup(infoToInsert.info)}

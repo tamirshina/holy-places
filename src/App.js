@@ -3,19 +3,22 @@ import FrontPage from "./pages/FrontPage";
 import IsraelPage from "./pages/IsraelPage";
 import HomeBtn from "./fragments/HomeBtn";
 import LanguageButtons from "./fragments/LanguageButtons";
-import "./App.css";
+import CompoundPage from "./pages/CompoundPage";
 import JerusalemPage from "./pages/JerusalemPage";
 import BackBtn from "./fragments/BackBtn";
+import "./App.css";
 
 function App() {
   const [isFrontPage, setIstFrontPage] = useState(true);
   const [isIsraelPage, setIstIsraelPage] = useState(false);
   const [isJerusalemPage, setIsJerusalemPage] = useState(false);
+  const [isCompoundPage, setIsCompoundPage] = useState(false);
 
   const homeBtnLogic = () => {
     setIstFrontPage(true);
     setIstIsraelPage(false);
     setIsJerusalemPage(false);
+    setIsCompoundPage(false);
   };
   const playVideo = () => {
     const videoElem = document.getElementById("zoomInVideo");
@@ -52,6 +55,26 @@ function App() {
       };
     }
   };
+  const playCompoundVideo = () => {
+    const videoElem = document.getElementById("jerusalemPageVideo");
+    const elemntToFade = document.getElementsByClassName("container-to-fade");
+    for (let index = 0; index < elemntToFade.length; index++) {
+      elemntToFade[index].classList.add("fade");
+    }
+    if (videoElem) {
+      setTimeout(function () {
+        videoElem.play();
+      }, 200);
+      videoElem.onplay = (event) => {
+        setTimeout(function () {
+          setIsCompoundPage(true);
+        }, 2500);
+      };
+      videoElem.onended = (event) => {
+        setIsJerusalemPage(false);
+      };
+    }
+  };
 
   const backBtnLogic = () => {
     if (isJerusalemPage) {
@@ -59,14 +82,22 @@ function App() {
       setIsJerusalemPage(false);
     } else {
       setIsJerusalemPage(true);
+      setIsCompoundPage(false);
     }
+  };
+
+  const moveToCompoundPage = () => {
+    playCompoundVideo();
   };
 
   return (
     <>
       {isFrontPage && <FrontPage playVideo={playVideo} />}
       {isIsraelPage && <IsraelPage playIsraelVideo={playIsraelVideo} />}
-      {isJerusalemPage && <JerusalemPage />}
+      {isJerusalemPage && (
+        <JerusalemPage moveToCompoundPage={moveToCompoundPage} />
+      )}
+      {isCompoundPage && <CompoundPage />}
       {!isFrontPage && <HomeBtn homeBtnLogic={homeBtnLogic} />}
       {!isFrontPage && !isIsraelPage && <BackBtn backBtnLogic={backBtnLogic} />}
       <LanguageButtons />
