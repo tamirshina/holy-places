@@ -1,4 +1,4 @@
-import React, { useContext, useRef } from "react";
+import React, { useContext, useRef, useEffect } from "react";
 import background from "../assets/Screen-02/02-background.png";
 import israelVideo from "../assets/Screen-02/01-transion-israel.mp4";
 import LangContext from "../LangContext";
@@ -12,6 +12,12 @@ import IsraelTextInserter from "../texthandling/IsreaelPageText";
 function IsraelPage({ playIsraelVideo }) {
   const { lang } = useContext(LangContext);
   const jeruImg = useRef(null);
+
+  useEffect(() => {
+    setTimeout(() => {
+      jeruImg.current.classList.remove("hidden");
+    }, 500);
+  }, [jeruImg]);
 
   function whichFileToUse() {
     if (lang === "hebrew") {
@@ -68,7 +74,7 @@ function IsraelPage({ playIsraelVideo }) {
         src={jerusalemImg}
         onClick={handelClick}
         ref={jeruImg}
-        className="jerusalem-icon"
+        className="jerusalem-icon hidden"
         alt="hand arrow"
       />
       <IsraelTextInserter

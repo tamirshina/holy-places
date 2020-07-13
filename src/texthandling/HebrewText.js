@@ -3,6 +3,10 @@ import aliyahBox from "../assets/text-boxses/Aliyah-Church.png";
 import benjiBox from "../assets/text-boxses/Benjamin-yard.png";
 import mariaBox from "../assets/text-boxses/Mariabox.png";
 import russianBox from "../assets/text-boxses/Russianbox.png";
+import boxRight from "../assets/text-boxses/02-textbox.png";
+import boxDown from "../assets/text-boxses/05-textbox.png";
+import boxLeft from "../assets/text-boxses/01-textbox.png";
+import boxUpLeft from "../assets/text-boxses/04-textbox.png";
 const hebrewText = {
   id: "hebrewText",
   frontPage: {
@@ -171,13 +175,15 @@ const hebrewText = {
         },
         positonForTextBox: {
           position: "fixed",
-          top: "33%",
-          left: "3%",
+          top: "32%",
+          left: "33%",
         },
         textStyle: {
           position: "relative",
           bottom: "471px",
           left: "12%",
+          fontSize: "18px",
+          direction: "rtl",
         },
         imageBox: russianBox,
         info: `
@@ -205,6 +211,8 @@ const hebrewText = {
           position: "relative",
           bottom: "619px",
           left: "18%",
+          fontSize: "18px",
+          direction: "rtl",
         },
         imageBox: mariaBox,
         info: `
@@ -233,6 +241,8 @@ const hebrewText = {
           bottom: "565px",
           left: "16%",
           height: "359px",
+          fontSize: "18px",
+          direction: "rtl",
         },
         imageBox: alexBox,
         info: `
@@ -258,6 +268,8 @@ const hebrewText = {
           position: "relative",
           bottom: "618px",
           left: "12%",
+          fontSize: "18px",
+          direction: "rtl",
         },
         imageBox: aliyahBox,
         info: `
@@ -287,6 +299,8 @@ const hebrewText = {
           position: "relative",
           bottom: "442px",
           left: "13%",
+          fontSize: "18px",
+          direction: "rtl",
         },
         imageBox: benjiBox,
         info: `
@@ -315,6 +329,8 @@ const hebrewText = {
           position: "relative",
           bottom: "442px",
           left: "13%",
+          fontSize: "18px",
+          direction: "rtl",
         },
         imageBox: benjiBox,
         info: `

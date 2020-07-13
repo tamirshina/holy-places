@@ -14,12 +14,11 @@ const englishText = {
   frontPage: {
     title: "Holy Places",
     openingParagraph: `
-        Between 1850 and 1917, the Russian Empire and the Russian Church erected dozens of buildings throughout the Middle East and Palestine in particular.
-         During these years, the industrial revolution and the progress that swept the Western world tends to reach our regions.
-
-        The Russian people during these years felt a deep connection with the Land of Israel and the holy sites of Christianity.
-         Many funds and resources were invested in Palestine by the Russian government and people, construction of churches and monasteries, infrastructure and a growing pilgrimage of Russian trainers who make pilgrimages to Jerusalem every year.
-        All of these contributed greatly to the development of the Land of Israel. The impact of this activity is still evident today, as beautiful churches adorn the landscape of the country and the big cities.`,
+    Between 1850 and 1917, the Russian Empire and the Russian Church erected dozens of buildings        throughout the Middle East and Palestine in particular.
+    During these years, the industrial revolution and the progress that swept the Western world tends to reach our regions.
+    The Russian people during these years felt a deep connection with the Land of Israel and the holy sites of Christianity.
+    Many funds and resources were invested in Palestine by the Russian government and people, construction of churches and monasteries, infrastructure and a growing pilgrimage of Russian trainers who make pilgrimages to Jerusalem every year.
+    All of these contributed greatly to the development of the Land of Israel. The impact of this activity is still evident today, as beautiful churches adorn the landscape of the country and the big cities.`,
   },
   IsraelPage: {
     haifa: {
@@ -179,12 +178,14 @@ Over the course of many years the building housed the NGO “Yad Sarah”.`,
         positonForTextBox: {
           position: "fixed",
           top: "33%",
-          left: "3%",
+          left: "33%",
         },
         textStyle: {
           position: "relative",
           bottom: "471px",
           left: "12%",
+          fontSize: "20px",
+          height: "375px",
         },
         imageBox: russianBox,
         info: `
@@ -296,7 +297,7 @@ During the period of the British Mandate the place served as a detention center 
           bottom: "442px",
           left: "13%",
         },
-        imageBox: boxDown,
+        imageBox: aliyahBox,
         info: `
     <b>The Church of the Holy Trinity</b> 
     
@@ -315,13 +316,14 @@ Initially the church was built for the use of the pilgrims hosted in one of the 
         },
         positonForTextBox: {
           position: "fixed",
-          top: "23%",
-          left: "2%",
+          top: "1%",
+          left: "15%",
         },
         textStyle: {
           position: "relative",
-          bottom: "442px",
-          left: "13%",
+          bottom: "129%",
+          left: "45%",
+          fontSize: "20px",
         },
         imageBox: boxUpRight,
         info: `

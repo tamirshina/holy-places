@@ -13,6 +13,7 @@ function App() {
   const [isIsraelPage, setIstIsraelPage] = useState(false);
   const [isJerusalemPage, setIsJerusalemPage] = useState(false);
   const [isCompoundPage, setIsCompoundPage] = useState(false);
+  const [showBtns, setShowBtns] = useState(true);
 
   const homeBtnLogic = () => {
     setIstFrontPage(true);
@@ -46,12 +47,14 @@ function App() {
       videoElem.onplay = (event) => {
         elemntToFade[0].classList.add("fade");
         elemntToFade[1].classList.add("fade");
+        setShowBtns(false);
         setTimeout(function () {
           setIsJerusalemPage(true);
         }, 2500);
       };
       videoElem.onended = (event) => {
         setIstIsraelPage(false);
+        setShowBtns(true);
       };
     }
   };
@@ -66,12 +69,14 @@ function App() {
         videoElem.play();
       }, 200);
       videoElem.onplay = (event) => {
+        setShowBtns(false);
         setTimeout(function () {
           setIsCompoundPage(true);
         }, 2500);
       };
       videoElem.onended = (event) => {
         setIsJerusalemPage(false);
+        setShowBtns(true);
       };
     }
   };
@@ -98,8 +103,10 @@ function App() {
         <JerusalemPage moveToCompoundPage={moveToCompoundPage} />
       )}
       {isCompoundPage && <CompoundPage />}
-      {!isFrontPage && <HomeBtn homeBtnLogic={homeBtnLogic} />}
-      {!isFrontPage && !isIsraelPage && <BackBtn backBtnLogic={backBtnLogic} />}
+      {!isFrontPage && showBtns && <HomeBtn homeBtnLogic={homeBtnLogic} />}
+      {!isFrontPage && !isIsraelPage && showBtns && (
+        <BackBtn backBtnLogic={backBtnLogic} />
+      )}
       <LanguageButtons />
     </>
   );

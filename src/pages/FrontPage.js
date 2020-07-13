@@ -7,6 +7,7 @@ import LangContext from "../LangContext";
 import hebHandArrow from "../assets/02-new-hand-HEB.png";
 import enHandArrow from "../assets/06-Arrow-ENG.png";
 import mapCircle from "../assets/03-map-circle.png";
+import downFrame from "../assets/frame-down.png";
 import "../App.css";
 import TextInserter from "../texthandling/TextInserter";
 
@@ -50,6 +51,12 @@ function FrontPage({ playVideo }) {
         alt="map circle"
         onClick={hundelOnClick}
         className={isRightToLeft ? "map-circle-heb" : "map-circle-en"}
+      />
+      <img
+        src={downFrame}
+        alt="downFrame"
+        onClick={hundelOnClick}
+        className={"down-frame"}
       />
       <TextInserter />
     </>

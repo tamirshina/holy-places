@@ -136,6 +136,7 @@ html {
   font-size: 19px;
   text-align: left;
   line-height: 1.6;
+  white-space: pre-line;
 }
 .add-to-textbox-israel-page {
   overflow: scroll;
@@ -145,6 +146,7 @@ html {
 .add-to-title-jeru-box {
   position: relative;
   top: 36px;
+  color: #2c2a2a;
 }
 .isreal-text-title {
   font-size: 19px;
@@ -232,14 +234,14 @@ html {
 }
 .en-text-box {
   position: fixed;
-  top: 8%;
+  top: 5%;
   left: 4%;
   display: grid;
 }
 .side-shape {
   float: right;
   width: 609px;
-  shape-outside: polygon(566px 0, 0px 500px, 0px 526px);
+  shape-outside: polygon(557px 0, 0px 447px, 0px 526px);
   height: 565px;
 }
 .text-shape-container {
@@ -283,7 +285,7 @@ html {
 }
 .jerusalem-icon {
   position: fixed;
-  top: 38%;
+  top: 37%;
   left: 46%;
   transition: opacity 1s;
   opacity: 1;
@@ -335,4 +337,9 @@ html {
 .click-point-title-container {
   position: relative;
   top: 17px;
+}
+.down-frame {
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }

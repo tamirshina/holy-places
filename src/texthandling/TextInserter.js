@@ -49,11 +49,18 @@ function TextInserter() {
         {isRightToLeft ? (
           <RighToLeftTitle titleToInsert={titleToInsert()} />
         ) : (
-            <LeftToRightTitle titleToInsert={titleToInsert()} />
-          )}
-        <div className={isRightToLeft ? "heb-text-shape-container" : "text-shape-container"}>
-          <div className={isRightToLeft ? "heb-side-shape" : "side-shape"}></div>
+          <LeftToRightTitle titleToInsert={titleToInsert()} />
+        )}
+        <div
+          className={
+            isRightToLeft ? "heb-text-shape-container" : "text-shape-container"
+          }
+        >
+          <div
+            className={isRightToLeft ? "heb-side-shape" : "side-shape"}
+          ></div>
           <p
+            style={{ marginTop: "-20px" }}
             ref={textParaEl}
             className={isRightToLeft ? "infoHeText" : "infoEnText"}
             id="particularTextBox"
