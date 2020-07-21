@@ -12,6 +12,7 @@ function JerusalemBox({
   id,
   waiteTime,
   secTitle,
+  extraStyle,
 }) {
   const [isTextBoxOpen, setIsTextBoxOpen] = useState(false);
   const JerusalemBoxRef = useRef(null);
@@ -58,10 +59,10 @@ function JerusalemBox({
         <div style={textBoxCss} className="overlay-bold" id={id}>
           <img src={textBox} alt="textBox" />
           <div style={textStyle}>
-            <div>
+            <div className="text-box-jeru-title">
               <b dangerouslySetInnerHTML={createMarkup(secTitle)} />
             </div>
-            <div className={"text-jeru-box"}>
+            <div className={"text-jeru-box"} style={extraStyle}>
               <p dangerouslySetInnerHTML={createMarkup(infoToInsert)} />
             </div>
           </div>

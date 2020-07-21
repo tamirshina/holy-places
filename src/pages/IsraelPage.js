@@ -65,15 +65,15 @@ function IsraelPage({ playIsraelVideo }) {
   const cssForScrollIconHaifa = {
     position: "relative",
     float: "right",
-    bottom: "24%",
+    bottom: "20%",
     left: "36px",
     height: "56px",
   };
   const cssForScrollIconGalili = {
     position: "relative",
     float: "right",
-    bottom: "33%",
-    left: "19px",
+    bottom: "29%",
+    left: "29px",
     height: "56px",
   };
 

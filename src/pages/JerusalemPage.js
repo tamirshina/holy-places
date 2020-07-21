@@ -42,7 +42,8 @@ function JerusalemPage({ moveToCompoundPage }) {
             textStyle={item.textStyle}
             id={item.name}
             waiteTime={item.waiteTime}
-            secTitle={item.title}
+            secTitle={item.secTitle}
+            extraStyle={item.extraStyle}
           />
         );
       })}

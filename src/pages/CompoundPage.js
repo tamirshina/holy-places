@@ -42,6 +42,7 @@ function CompoundPage() {
             id={item.name}
             waiteTime={item.waiteTime}
             secTitle={item.secTitle}
+            extraStyle={item.extraStyle}
           />
         );
       })}

@@ -14,6 +14,7 @@ function App() {
   const [isJerusalemPage, setIsJerusalemPage] = useState(false);
   const [isCompoundPage, setIsCompoundPage] = useState(false);
   const [showBtns, setShowBtns] = useState(true);
+  const [showLngBtns, setShowLangBtns] = useState(true);
 
   const homeBtnLogic = () => {
     setIstFrontPage(true);
@@ -22,6 +23,7 @@ function App() {
     setIsCompoundPage(false);
   };
   const playVideo = () => {
+    document.getElementById("languagesBtnsDiv").classList.add("fade");
     const videoElem = document.getElementById("zoomInVideo");
     const frontText = document.getElementById("frontPageText");
     if (videoElem) {
@@ -33,8 +35,10 @@ function App() {
         setTimeout(function () {
           setIstIsraelPage(true);
         }, 3500);
+        setShowLangBtns(false);
       };
       videoElem.onended = (event) => {
+        setShowLangBtns(true);
         setIstFrontPage(false);
       };
     }
@@ -107,7 +111,7 @@ function App() {
       {!isFrontPage && !isIsraelPage && showBtns && (
         <BackBtn backBtnLogic={backBtnLogic} />
       )}
-      <LanguageButtons />
+      {showLngBtns && <LanguageButtons />}
     </>
   );
 }

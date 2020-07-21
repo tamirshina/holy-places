@@ -227,11 +227,13 @@ html {
   position: fixed;
   bottom: -7px;
   left: 358px;
+  z-index: 3;
 }
 .map-circle-en {
   position: fixed;
   bottom: -7px;
   right: 358px;
+  z-index: 3;
 }
 .en-text-box {
   position: fixed;
@@ -310,11 +312,11 @@ html {
 }
 .text-jeru-box {
   width: 700px;
-  height: 500px;
+  height: 436px;
   font-family: Papyrus;
   white-space: pre-line;
-  font-size: 17px;
-  line-height: 1.4;
+  font-size: 19px;
+  line-height: 1.6;
   overflow: scroll;
 }
 .overlay-bold {
@@ -343,6 +345,7 @@ html {
   position: fixed;
   bottom: 0;
   left: 0;
+  z-index: 4;
 }
 .scroll-icon-position {
   position: relative;
@@ -350,4 +353,7 @@ html {
   bottom: 36%;
   left: 33px;
   height: 80px;
+}
+.text-box-jeru-title {
+  height: 40px;
 }
