@@ -42,6 +42,7 @@ html {
   height: -webkit-fill-available;
   object-fit: fill;
   width: 100%;
+  margin-bottom: -3px;
 }
 .textBoxCss {
   position: fixed;
@@ -253,7 +254,7 @@ html {
 .heb-side-shape {
   float: left;
   width: 600px;
-  shape-outside: polygon(0px 0px, 793px 611px, 29px 0);
+  shape-outside: polygon(0px 0px, 793px 611px, 33px 0);
   height: 800px;
 }
 .hand-heb-arrow {
@@ -342,4 +343,11 @@ html {
   position: fixed;
   bottom: 0;
   left: 0;
+}
+.scroll-icon-position {
+  position: relative;
+  float: right;
+  bottom: 36%;
+  left: 33px;
+  height: 80px;
 }

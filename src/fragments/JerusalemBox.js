@@ -18,7 +18,13 @@ function JerusalemBox({
 
   useEffect(() => {
     setTimeout(() => {
-      JerusalemBoxRef.current.classList.remove("hidden");
+      try {
+        JerusalemBoxRef.current.classList.remove("hidden");
+      } catch (error) {
+        console.error(error);
+      }
+      if (JerusalemBoxRef) {
+      }
     }, waiteTime);
   }, [JerusalemBoxRef]);
 
@@ -51,9 +57,13 @@ function JerusalemBox({
       {isTextBoxOpen ? (
         <div style={textBoxCss} className="overlay-bold" id={id}>
           <img src={textBox} alt="textBox" />
-          <div className={"text-jeru-box"} style={textStyle}>
-            <p dangerouslySetInnerHTML={createMarkup(secTitle)} />
-            <p dangerouslySetInnerHTML={createMarkup(infoToInsert)} />
+          <div style={textStyle}>
+            <div>
+              <b dangerouslySetInnerHTML={createMarkup(secTitle)} />
+            </div>
+            <div className={"text-jeru-box"}>
+              <p dangerouslySetInnerHTML={createMarkup(infoToInsert)} />
+            </div>
           </div>
         </div>
       ) : null}

@@ -1,12 +1,13 @@
 import alexBox from "../assets/text-boxses/Alexdner-textbox.png";
 import aliyahBox from "../assets/text-boxses/Aliyah-Church.png";
-import benjiBox from "../assets/text-boxses/Benjamin-yard.png";
+import elisTextbox from "../assets/text-boxses/elisTextbox.png";
 import mariaBox from "../assets/text-boxses/Mariabox.png";
-import russianBox from "../assets/text-boxses/Russianbox.png";
-import boxRight from "../assets/text-boxses/02-textbox.png";
-import boxDown from "../assets/text-boxses/05-textbox.png";
-import boxLeft from "../assets/text-boxses/01-textbox.png";
-import boxUpLeft from "../assets/text-boxses/04-textbox.png";
+import benjiBox from "../assets/text-boxses/Benjamin-yard.png";
+import russianTextbox from "../assets/text-boxses/russianTextbox.png";
+import nicoTextbox from "../assets/text-boxses/nicoTextbox.png";
+import mariaTextBox from "../assets/text-boxses/mariaTextBox.png";
+import trinityTextbox from "../assets/text-boxses/trinityTextbox.png";
+import religiousMissionTextBox from "../assets/text-boxses/religiousMissionTextBox.png";
 const russianText = {
   id: "englishText",
   frontPage: {
@@ -67,7 +68,7 @@ const russianText = {
     {
       name: "nyvskyChurch",
       waiteTime: 300,
-      title: "Русское подворье",
+      title: "Александровское подворье",
       cssForPosition: {
         position: "fixed",
         top: "38%",
@@ -143,7 +144,7 @@ const russianText = {
         bottom: "442px",
         left: "13%",
       },
-      imageBox: boxRight,
+      imageBox: benjiBox,
       info: `
     <b>Вениаминовское подворье в Иерусалиме</b> 
     
@@ -172,14 +173,14 @@ const russianText = {
         positonForTextBox: {
           position: "fixed",
           top: "33%",
-          left: "3%",
+          left: "34%",
         },
         textStyle: {
           position: "relative",
           bottom: "471px",
           left: "12%",
         },
-        imageBox: russianBox,
+        imageBox: russianTextbox,
         info: `
         <b>Русское подворье</b> 
         
@@ -206,7 +207,7 @@ const russianText = {
           bottom: "619px",
           left: "18%",
         },
-        imageBox: mariaBox,
+        imageBox: religiousMissionTextBox,
         info: `
     <b>Здание духовной миссии</b> 
 
@@ -235,7 +236,7 @@ const russianText = {
           left: "16%",
           height: "359px",
         },
-        imageBox: alexBox,
+        imageBox: elisTextbox,
         info: `
         <b>Елизаветинское подворье</b>
 
@@ -261,7 +262,7 @@ const russianText = {
           bottom: "618px",
           left: "12%",
         },
-        imageBox: aliyahBox,
+        imageBox: mariaTextBox,
         info: `
               <b>Женское общежитеи имени Марии</b>
               
@@ -291,7 +292,7 @@ const russianText = {
           bottom: "442px",
           left: "13%",
         },
-        imageBox: benjiBox,
+        imageBox: trinityTextbox,
         info: `
     <b>Собор Святой Троицы</b> 
     
@@ -319,7 +320,7 @@ const russianText = {
           bottom: "442px",
           left: "13%",
         },
-        imageBox: benjiBox,
+        imageBox: nicoTextbox,
         info: `
     <b>Николаевское подворье</b> 
     

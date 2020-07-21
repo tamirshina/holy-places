@@ -1,13 +1,13 @@
 import alexBox from "../assets/text-boxses/Alexdner-textbox.png";
 import aliyahBox from "../assets/text-boxses/Aliyah-Church.png";
-import benjiBox from "../assets/text-boxses/Benjamin-yard.png";
+import elisTextbox from "../assets/text-boxses/elisTextbox.png";
 import mariaBox from "../assets/text-boxses/Mariabox.png";
-import russianBox from "../assets/text-boxses/Russianbox.png";
-import boxRight from "../assets/text-boxses/02-textbox.png";
-import boxDown from "../assets/text-boxses/05-textbox.png";
-import boxLeft from "../assets/text-boxses/01-textbox.png";
-import boxUpRight from "../assets/text-boxses/03-textbox.png";
-import boxUpLeft from "../assets/text-boxses/04-textbox.png";
+import benjiBox from "../assets/text-boxses/Benjamin-yard.png";
+import russianTextbox from "../assets/text-boxses/russianTextbox.png";
+import nicoTextbox from "../assets/text-boxses/nicoTextbox.png";
+import mariaTextBox from "../assets/text-boxses/mariaTextBox.png";
+import trinityTextbox from "../assets/text-boxses/trinityTextbox.png";
+import religiousMissionTextBox from "../assets/text-boxses/religiousMissionTextBox.png";
 
 const englishText = {
   id: "englishText",
@@ -187,7 +187,7 @@ Over the course of many years the building housed the NGO “Yad Sarah”.`,
           fontSize: "20px",
           height: "375px",
         },
-        imageBox: russianBox,
+        imageBox: russianTextbox,
         info: `
         <b>The Russian Compound</b> 
         
@@ -214,7 +214,7 @@ The plan was to create a kind of a small town that serves Russian pilgrims that 
           bottom: "619px",
           left: "18%",
         },
-        imageBox: boxUpLeft,
+        imageBox: religiousMissionTextBox,
         info: `
     <b>Building of the Ecclesiastical Mission</b> 
 
@@ -242,7 +242,7 @@ The crown jewel of the edifice was the extensive and diverse library that contai
           left: "16%",
           height: "359px",
         },
-        imageBox: boxRight,
+        imageBox: elisTextbox,
         info: `
         <b>Elizabeth’s Courtyard</b>
 
@@ -267,7 +267,7 @@ The crown jewel of the edifice was the extensive and diverse library that contai
           bottom: "618px",
           left: "12%",
         },
-        imageBox: boxLeft,
+        imageBox: mariaTextBox,
         info: `
               <b>Women’s Hostel named after Maria</b>
               
@@ -297,7 +297,7 @@ During the period of the British Mandate the place served as a detention center 
           bottom: "442px",
           left: "13%",
         },
-        imageBox: aliyahBox,
+        imageBox: trinityTextbox,
         info: `
     <b>The Church of the Holy Trinity</b> 
     
@@ -325,7 +325,7 @@ Initially the church was built for the use of the pilgrims hosted in one of the 
           left: "45%",
           fontSize: "20px",
         },
-        imageBox: boxUpRight,
+        imageBox: nicoTextbox,
         info: `
       <b>Nikolai’s Courtyard</b> 
       

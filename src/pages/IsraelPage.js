@@ -62,6 +62,21 @@ function IsraelPage({ playIsraelVideo }) {
     height: "242px",
   };
 
+  const cssForScrollIconHaifa = {
+    position: "relative",
+    float: "right",
+    bottom: "24%",
+    left: "36px",
+    height: "56px",
+  };
+  const cssForScrollIconGalili = {
+    position: "relative",
+    float: "right",
+    bottom: "33%",
+    left: "19px",
+    height: "56px",
+  };
+
   return (
     <>
       <video
@@ -81,11 +96,13 @@ function IsraelPage({ playIsraelVideo }) {
         infoToInsert={haifaInfoToInsert()}
         cssForText={cssForHaifa}
         hebCssFortext={cssHeForHaifa}
+        cssForScrollIcon={cssForScrollIconHaifa}
       />
       <IsraelTextInserter
         infoToInsert={seaOfGaliliInfoToInsert()}
         cssForText={cssForSeaOfGalili}
         hebCssFortext={cssForSeaOfGalili}
+        cssForScrollIcon={cssForScrollIconGalili}
       />
     </>
   );

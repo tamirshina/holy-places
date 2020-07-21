@@ -1,8 +1,14 @@
 import React, { useContext, useEffect, useState } from "react";
 import LangContext from "../LangContext";
+import scrollIcon from "../assets/scroll-icon.png";
 import "../App.css";
 
-function IsraelPageText({ infoToInsert, cssForText, hebCssFortext }) {
+function IsraelPageText({
+  infoToInsert,
+  cssForText,
+  hebCssFortext,
+  cssForScrollIcon,
+}) {
   const lang = useContext(LangContext).lang;
 
   const [isRightToLeft, setIsRightToLeft] = useState(false);
@@ -40,6 +46,9 @@ function IsraelPageText({ infoToInsert, cssForText, hebCssFortext }) {
         }
         dangerouslySetInnerHTML={createMarkup(infoToInsert.info)}
       ></p>
+      {isRightToLeft ? null : (
+        <img src={scrollIcon} alt={scrollIcon} style={cssForScrollIcon} />
+      )}
     </div>
   );
 }

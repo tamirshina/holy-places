@@ -42,7 +42,7 @@ function JerusalemPage({ moveToCompoundPage }) {
             textStyle={item.textStyle}
             id={item.name}
             waiteTime={item.waiteTime}
-            secTitle={item.secTitle}
+            secTitle={item.title}
           />
         );
       })}

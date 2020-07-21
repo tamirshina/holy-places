@@ -1,12 +1,13 @@
 import alexBox from "../assets/text-boxses/Alexdner-textbox.png";
 import aliyahBox from "../assets/text-boxses/Aliyah-Church.png";
-import benjiBox from "../assets/text-boxses/Benjamin-yard.png";
+import elisTextbox from "../assets/text-boxses/elisTextbox.png";
 import mariaBox from "../assets/text-boxses/Mariabox.png";
-import russianBox from "../assets/text-boxses/Russianbox.png";
-import boxRight from "../assets/text-boxses/02-textbox.png";
-import boxDown from "../assets/text-boxses/05-textbox.png";
-import boxLeft from "../assets/text-boxses/01-textbox.png";
-import boxUpLeft from "../assets/text-boxses/04-textbox.png";
+import benjiBox from "../assets/text-boxses/Benjamin-yard.png";
+import russianTextbox from "../assets/text-boxses/russianTextbox.png";
+import nicoTextbox from "../assets/text-boxses/nicoTextbox.png";
+import mariaTextBox from "../assets/text-boxses/mariaTextBox.png";
+import trinityTextbox from "../assets/text-boxses/trinityTextbox.png";
+import religiousMissionTextBox from "../assets/text-boxses/religiousMissionTextBox.png";
 const hebrewText = {
   id: "hebrewText",
   frontPage: {
@@ -31,8 +32,7 @@ const hebrewText = {
       title: `<b>טבריה כנסיית מריה מגדלן</b>`,
       info: `על שפת הכנרת בנוף הגליל, קמה כנסייה ע"ש מריה מגדלן. ב1908 רכש הארכימנדריט לאוניד את השטח עליו הוקמה שנים מאוחר יותר הכנסייה. הארכימנדריט ליאוניד תיאר את המקום כך "המקום הוא אואזיס נפלא לצידו של האגם" 
       כאן ע"פ המסורת הנוצרית ריפא ישו את מרים המגדלית, הלא היא מריה מגדלן. 
-      "וְנָשִׁים אֲשֶׁר נִרְפְּאוּ מֵרוּחוֹת רָעוֹת וּמֵחֳלָיִים מִרְיָם הַנִּקְרָאָה מַגְדָּלִית אֲשֶׁר גֹּרְשׁוּ מִמֶּנָּה שִׁבְעָה שֵׁדִים׃." הבשורה ע"פ לוקאס.
-      נזירות רוסיות מטפלות במקום היפיפיה במורדות הגליל.`,
+      "וְנָשִׁים אֲשֶׁר נִרְפְּאוּ מֵרוּחוֹת רָעוֹת וּמֵחֳלָיִים מִרְיָם הַנִּקְרָאָה מַגְדָּלִית אֲשֶׁר גֹּרְשׁוּ מִמֶּנָּה שִׁבְעָה שֵׁדִים׃." הבשורה ע"פ לוקאס.`,
     },
   },
   JerusalemPage: [
@@ -47,17 +47,18 @@ const hebrewText = {
       },
       positonForTextBox: {
         position: "fixed",
-        top: "3%",
-        left: "32%",
+        top: "5%",
+        left: "12%",
       },
       textStyle: {
         position: "relative",
         bottom: "619px",
         left: "18%",
+        direction: "rtl",
       },
-      imageBox: mariaBox,
+      imageBox: aliyahBox,
       info: `
-    <b>נסיית מריה מגדלנה</b> 
+    
 
     מרים המגדלית מתוארת בברית החדשה כתומכת מרכזית בישו, ונודעה כ"שליחת השליחים" (apostolorum apostola). על־פי ספרי הבשורה, היא הייתה אחת מהנשים שנכחו בצליבתו של ישו ובקומו לתחייה.
 
@@ -89,6 +90,7 @@ const hebrewText = {
         bottom: "565px",
         left: "16%",
         height: "359px",
+        direction: "rtl",
       },
       imageBox: alexBox,
       info: `
@@ -107,13 +109,14 @@ const hebrewText = {
       },
       positonForTextBox: {
         position: "fixed",
-        top: "29%",
-        left: "34%",
+        top: "-3%",
+        left: "29%",
       },
       textStyle: {
         position: "relative",
         bottom: "618px",
         left: "12%",
+        direction: "rtl",
       },
       imageBox: aliyahBox,
       info: `
@@ -141,12 +144,13 @@ const hebrewText = {
       positonForTextBox: {
         position: "fixed",
         top: "23%",
-        left: "2%",
+        left: "-1%",
       },
       textStyle: {
         position: "relative",
         bottom: "442px",
         left: "13%",
+        direction: "rtl",
       },
       imageBox: benjiBox,
       info: `
@@ -176,16 +180,17 @@ const hebrewText = {
         positonForTextBox: {
           position: "fixed",
           top: "32%",
-          left: "33%",
+          left: "17%",
         },
         textStyle: {
           position: "relative",
-          bottom: "471px",
-          left: "12%",
+          bottom: "410px",
+          left: "32%",
           fontSize: "18px",
           direction: "rtl",
+          width: "1000px",
         },
-        imageBox: russianBox,
+        imageBox: russianTextbox,
         info: `
         <b>מגרש הרוסים</b> 
         
@@ -204,8 +209,8 @@ const hebrewText = {
         },
         positonForTextBox: {
           position: "fixed",
-          top: "3%",
-          left: "32%",
+          top: "4%",
+          left: "6%",
         },
         textStyle: {
           position: "relative",
@@ -214,7 +219,7 @@ const hebrewText = {
           fontSize: "18px",
           direction: "rtl",
         },
-        imageBox: mariaBox,
+        imageBox: religiousMissionTextBox,
         info: `
     <b>בניין המשלחת הדתית</b> 
 
@@ -233,8 +238,8 @@ const hebrewText = {
         },
         positonForTextBox: {
           position: "fixed",
-          top: "3%",
-          left: "40%",
+          top: "-1%",
+          left: "27%",
         },
         textStyle: {
           position: "relative",
@@ -244,7 +249,7 @@ const hebrewText = {
           fontSize: "18px",
           direction: "rtl",
         },
-        imageBox: alexBox,
+        imageBox: elisTextbox,
         info: `
         <b>חצר אליזבטה</b>
 
@@ -261,8 +266,8 @@ const hebrewText = {
         },
         positonForTextBox: {
           position: "fixed",
-          top: "29%",
-          left: "34%",
+          top: "9%",
+          left: "12%",
         },
         textStyle: {
           position: "relative",
@@ -271,7 +276,7 @@ const hebrewText = {
           fontSize: "18px",
           direction: "rtl",
         },
-        imageBox: aliyahBox,
+        imageBox: mariaTextBox,
         info: `
               <b>אכסניית הנשים ע"ש מריה</b>
               
@@ -292,17 +297,17 @@ const hebrewText = {
         },
         positonForTextBox: {
           position: "fixed",
-          top: "23%",
-          left: "2%",
+          top: "19%",
+          left: "46%",
         },
         textStyle: {
           position: "relative",
-          bottom: "442px",
-          left: "13%",
+          bottom: "529px",
+          left: "29%",
           fontSize: "18px",
           direction: "rtl",
         },
-        imageBox: benjiBox,
+        imageBox: trinityTextbox,
         info: `
     <b>כנסיית השילוש הקדוש</b> 
     
@@ -322,8 +327,8 @@ const hebrewText = {
         },
         positonForTextBox: {
           position: "fixed",
-          top: "23%",
-          left: "2%",
+          top: "2%",
+          left: "7%",
         },
         textStyle: {
           position: "relative",
@@ -332,7 +337,7 @@ const hebrewText = {
           fontSize: "18px",
           direction: "rtl",
         },
-        imageBox: benjiBox,
+        imageBox: nicoTextbox,
         info: `
       <b>חצר ניקולאי</b> 
       
