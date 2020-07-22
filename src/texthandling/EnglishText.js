@@ -139,8 +139,8 @@ Following the Bolshevik revolution in Russia, the Bolsheviks went after the roya
       },
       positonForTextBox: {
         position: "fixed",
-        top: "23%",
-        left: "2%",
+        top: "1%",
+        left: "12%",
       },
       textStyle: {
         position: "relative",

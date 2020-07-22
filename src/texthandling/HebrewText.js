@@ -1,7 +1,7 @@
 import alexBox from "../assets/text-boxses/Alexdner-textbox.png";
 import aliyahBox from "../assets/text-boxses/Aliyah-Church.png";
 import elisTextbox from "../assets/text-boxses/elisTextbox.png";
-import benjiBox from "../assets/text-boxses/02-textbox.png";
+import benjiBox from "../assets/text-boxses/textbox.png";
 import russianTextbox from "../assets/text-boxses/russianTextbox.png";
 import nicoTextbox from "../assets/text-boxses/nicoTextbox.png";
 import mariaTextBox from "../assets/text-boxses/mariaTextBox.png";
@@ -142,9 +142,14 @@ const hebrewText = {
       },
       textStyle: {
         position: "relative",
-        bottom: "114%",
-        left: "134%",
+        bottom: "82%",
+        left: "106%",
         direction: "rtl",
+      },
+      extraStyle: {
+        width: "600px",
+        height: "360px",
+        marginTop: "-11px",
       },
       imageBox: benjiBox,
       info: `החצר קרויה על שם נזיר נוצרי בשם בנימין שהגיע לראשונה לארץ ישראל בשנת 1846 וכמו אחרים התאהב בארץ הקודש. בזמן מלחמת טורקיה רוסיה טיפל בפצועים בחזית הטורקית ועל פועלו זכה בעיטור גבורה. 
