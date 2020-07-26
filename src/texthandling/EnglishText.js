@@ -22,8 +22,8 @@ const englishText = {
   IsraelPage: {
     haifa: {
       title: `<b>St. Elijah’s Cathedral in Haifa</b>`,
-      info: `As time passed and the pilgrimage movement to the Holy Land got stronger, the presence of the pilgrims in Palestine culminated in 1913 and many pilgrims began to arrive to the port of Haifa in addition to the port of Jaffa. As a result, an additional plot of land was purchased by Archim. Leonid Sentsov in order to provide a church and shelters for the pilgrims. Initially, the Ottoman authorities denied granting a permit for the place, but eventually, they acceded; on the day that marked 300 years of the Romanov dynasty, the site of St. Elijah in Haifa opened for the general public.
-        Prophet Elijah, after whom the church is named, holds an honorary place in Christianity as according to specific sources, John the Baptist and St. Elijah were the same person and also thanks to Elijah’s war on idolatry.`,
+      info: `As time passed and the pilgrimage movement to the Holy Land got stronger, the presence of the pilgrims in Palestine culminated in 1913 and many pilgrims began to arrive to the port of Haifa in addition to the port of Jaffa. As a result, an additional plot of land was purchased by Archim. Leonid Sentsov in order to provide a church and shelters for these pilgrims. Initially, the Ottoman authorities denied granting a permit for the place, but eventually, they acceded; on the day that marked 300 years of the Romanov dynasty, the site of St. Elijah in Haifa opened for the general public.
+        Prophet Elijah, after whom the church is named, holds an honorary place in Christianity thakns to his war on idolatry, that culminated in the scene of "the challenge to baal" om Mt. Carmel.  according to new testament, John the Baptist is the spirtual successor St. Elijah.`,
       css: {
         top: "11%",
       },
@@ -31,8 +31,8 @@ const englishText = {
     seaOfGalili: {
       title: `<b>Tiberias</b>`,
       info: `On the shore of the Sea of Galilee (Kinneret) surrounded by the breathtaking view of the Galilee the church of Mary Magdalene was built. In 1908 Archim. Leonid Sentsov acquired the land on which the church was built some years later; he described the place as such: “A magnificent oasis next to a lake”.
-        According to Christian tradition, this is the place where Jesus healed Mary Magdalene (Myriam of Magdala).
-        “And certain women, which had been healed of evil spirits and infirmities, Mary called Magdalene, out of whom went seven devils” - Gospel of Luke
+        According to Christian tradition, this is the region where Jesus healed Mary Magdalene (Myriam of Magdala).
+        <i>“And certain women, which had been healed of evil spirits and infirmities, Mary called Magdalene, out of whom went seven devils”</i> - Gospel of Luke
         Russian Orthodox nuns look after this gorgeous place on the Galilee hillside.`,
       css: {
         top: "56%",
@@ -63,12 +63,12 @@ const englishText = {
       imageBox: aliyahBox,
       info: `Mary Magdalene is depicted in the New Testament as one of Jesus’ central supporters, and is known as the “apostle of the apostles” (apostola apostolorum). As written in the Gospels, she was one of the women that were present during Jesus’ crucifixion and resurrection.
 
-Upon the land that was bought in the name of Tsar Alexander III in 1882, the church that became the crown jewel of Russian presence in the Holy Land was erected. Even before the completion of the construction of the church, it was written that “in this wonderful location there is a monument worthy of the royal family and Russia’s glory. The Catholic monks tear their robes out of jealousy”.
+Upon the land that was bought in the name of Tsar Alexander III in 1882, the church that became the crown jewel of Russian presence in the Holy Land was erected. Even before the completion of the construction of the church, it was written that <i>“in this wonderful location there is a monument worthy of the royal family and Russia’s glory. The Catholic monks tear their robes out of jealousy”</i>.
 
-Archim. Kapustin, head of the Russian ecclesiastical mission, proposed to the Grand Dukes Sergey Alexandrovich and Pavel Alexandrovich the idea of the construction of a temple in memory their mother, Tsarina Maria Alexandrovna, during their visit in Jerusalem in May 1881. The works began in 1885 and in 1888 a dedication ceremony was carried out with the presence of the Greek Patriarch of Jerusalem, Grand Duke and chairman of the IOPS (Imperial Orthodox Palestine Society) Sergey Alexandrovich and his wife Princess Elizabeth Feodorovna, who requested to be buried at the site of the church.
-*Opposite the church’s main entrance gate, inside the fence that surrounds the whole Gethsemane complex, an ancient stone column of unknown origin is positioned and it called the “Betrayal Column” or the “Kiss Column”. It stands there as a symbol of the place where Judas Iscariot kissed Jesus and therefore exposed him to the Roman soldiers, as recorded in the Gospel of Mark in the New Testament:
+Archim. Kapustin, head of the Russian ecclesiastical mission, proposed to the Grand Dukes Sergey Alexandrovich and Pavel Alexandrovich the idea of the construction of a temple in memory their mother, Tsarina Maria Alexandrovna, during their visit in Jerusalem in May 1881. The works began in 1885 and in 1888 a dedication ceremony was carried out with the presence of the Greek Patriarch of Jerusalem, Grand Duke and chairman of the IOPS Sergey Alexandrovich and his wife Princess Elizabeth Feodorovna, who requested to be buried at the site of the church.
+Opposite the church’s main entrance gate, inside the fence that surrounds the whole Gethsemane complex, an ancient stone column of unknown origin is positioned. It called the “Betrayal Column” or the “Kiss Column” and it stands there as a symbol of the place where Judas Iscariot kissed Jesus and therefore exposed him to the Roman soldiers, as recorded in the Gospel of Mark in the New Testament:
 
-“Immediately while He was still speaking, Judas, one of the twelve, came up accompanied by a crowd with swords and clubs, who were from the chief priests and the scribes and the elders. Now he who was betraying Him had given them a signal, saying, "Whomever I kiss, He is the one; seize Him and lead Him away under guard." After coming, Judas immediately went to Him, saying, "Rabbi!" and kissed Him. They laid hands on Him and seized Him”.
+<i>“Immediately while He was still speaking, Judas, one of the twelve, came up accompanied by a crowd with swords and clubs, who were from the chief priests and the scribes and the elders. Now he who was betraying Him had given them a signal, saying, "Whomever I kiss, He is the one; seize Him and lead Him away under guard." After coming, Judas immediately went to Him, saying, "Rabbi!" and kissed Him. They laid hands on Him and seized Him”</i>.
 Following the Bolshevik revolution in Russia, the Bolsheviks went after the royal family, a member of which was Elizabeth Feodorovna. Since her husband’s death, Elizabeth became a nun devoting all her being to the aid of others. She did not accept to leave Russia for her personal safety in order to remain with her fellow community members in Moscow. Elizabeth was caught by the Bolsheviks and after a whole year of house arrest she was brutally murdered. People still loyal to the Tsar found the Princess’ body, asked to arrange her a proper burial. Her body was first transferred to Siberia, later to the royal family’s graveyard in China and in 1920, under her young sister Victoria’s instruction and respecting Elizabeth’s own will, her remains were transferred for the last time to be buried in the church of Mary Magdalene. Elizabeth is recognized as a new saint for Russian Orthodoxy.`,
     },
     {
@@ -95,7 +95,11 @@ Following the Bolshevik revolution in Russia, the Bolsheviks went after the roya
         height: "294px",
       },
       imageBox: alexBox,
-      info: `This plot of land was purchased by Tsarist Russia in 1859 from the Ethiopian Church in order to install there the Russian consulate in Jerusalem. During the construction of the consulate powerful archaeological discoveries were made; an ancient gate and a sarcophagus believed to contain Jesus’ shroud. Owing to the unearthing of the findings, it was decided to erect a church in the aforementioned plot of land instead of the planned consulate. Archim. Kapustin together with the renowned archaeologist Conrad Schick continued the excavations, which revealed findings that correspond to the “Gates of Justice” literally portrayed in the New Testament, through which crucified Jesus passed to get to the hill of Golgotha to his death. In addition to the church, a monastery and hostel were built in Alexander’s Courtyard. The building is made of pink and red marble following the ablaq technique, typical of the Mameluke period.`,
+      info: `The land plot of A. Nevsky site was purchased by Tsarist Russia in 1859 from the Ethiopian Church in order to install there the Russian consulate in Jerusalem. During the construction of the consulate powerful archaeological discoveries were made:
+       An ancient gate that corresponds to one of the “Gates of Justice” literally portrayed in the New Testament, through which Jesus passed to get to the hill of Golgotha to his death.
+        And a sarcophagus believed by some to contain Jesus’ shroud. 
+        Owing to the unearthing of the findings, it was decided to erect a church in the aforementioned plot of land instead of the planned consulate. Archim. Kapustin together with the renowned archaeologist Conrad Schick continued the excavations, which revealed additional findings. 
+         In addition to the church, a monastery and hostel were built in Alexander’s Courtyard. The building is made of pink and red marble following the ablaq technique, typical of the Mameluke period.`,
     },
     {
       name: "ascensionChurch",
@@ -149,7 +153,8 @@ Following the Bolshevik revolution in Russia, the Bolsheviks went after the roya
       },
       imageBox: benjiBox,
       info: `Named after the Christian monk Benjamin who firstly arrived to Palestine in 1846 and, like others, fell in love with the Holy Land. During the Ottoman-Russian war he treated injured soldiers in the Ottoman front and for that he was awarded a medal of honor.
-In 1887, using funds he raised by himself, Benjamin opened a hostel in the Jewish quarter in the old city. Contrary to the seasonal hostels (pilgrimage season usually stretches from October to May) of the IOPS, Benjamin’s hostel was intended to be a kind of shelter for people who wanted to spend the rest of their days in Jerusalem; in return of a minimal payment every person could let a room. There were also shared rooms in the hostel in which the people of the IOPS could stay free of charge. The monk Benjamin was very dear to the clergy and his funeral was performed in the church of the Holy Trinity. He passed the ownership of his hostel to the IOPS and wrote the rights of the asset to the chairman of the Society, Sergey Alexandrovich.
+In 1887, using funds he raised by himself, Benjamin opened a hostel in todays Neviim sreet. Contrary to the hostels of the IOPS which where open only during the pilgrimage season (October to May), Benjamin’s hostel accommodated pilgrims all year long.
+Benjamin’s hostel was intended to be a kind of shelter for people who wanted to spend the rest of their days in Jerusalem; in return of a minimal payment every person could let a room. There were also shared rooms in the hostel in which the people of the IOPS could stay free of charge. The monk Benjamin was very dear to the clergy and his funeral was performed in the church of the Holy Trinity. He passed the ownership of his hostel to the IOPS and wrote the rights of the asset to the chairman of the Society, Sergey Alexandrovich.
 
 Over the course of many years the building housed the NGO “Yad Sarah”.`,
     },
@@ -185,7 +190,7 @@ Over the course of many years the building housed the NGO “Yad Sarah”.`,
           width: "1000px",
         },
         imageBox: russianTextbox,
-        info: `In 1857 the Ottomans were willing to sell to Russia a land plot of 68 square kilometers located adjacent to the old city walls to the west. The Tsar paid, as a matter of fact, for five sixths of the land value, and the remaining sixth was granted to him as a present by the Ottomans. This was an extraordinary move, because this plot outmatches the old city from a strategic point of view; it is very close to the central Jaffa road, and compelled the Ottoman authorities to vacate the square that was used for celebrations, ceremonies and military parades. Actually, the Russian Compound was the first site with great proximity to the old city walls in which the Ottomans permitted constructions. The vision of Russian Palestine begins to materialize in a prime location of developing Jerusalem.
+        info: `In 1857 the Ottomans were willing to sell to Russia a land plot of 68 square kilometers located adjacent to the old city walls to the west. The Tsar paid, as a matter of fact, for five sixths of the land value, and the remaining sixth was granted to him as a present by the Ottomans. This was an extraordinary move, because this plot is strategically positioned overlooking the old city; it is very close to the central Jaffa road, and compelled the Ottoman authorities to vacate the square that was used for celebrations, ceremonies and military parades. Actually, the Russian Compound was the first site with great proximity to the old city walls in which the Ottomans permitted constructions. The vision of Russian Palestine begins to materialize in a prime location of developing Jerusalem.
 The plan was to create a kind of a small town that serves Russian pilgrims that sojourn the Holy Land. It included the church of the Holy Trinity, a hospital, the hostels in honor of Maria and Elizabeth, a building hosting the ecclesiastical mission, the edifice of the Russian consulate and water reserves.
 `,
       },
@@ -214,8 +219,8 @@ The plan was to create a kind of a small town that serves Russian pilgrims that 
           height: "600px",
         },
         imageBox: religiousMissionTextBox,
-        info: `The building was constructed in order to host the members of the Russian Middle East Ecclesiastical Mission. It incorporated the offices that concentrated the activities in the Holy Land, Lebanon and Syria, dormitories and guest rooms for highly ranked guests, a reception and a library. The building’s configuration is in the form of four long two-story corridors in the middle of which stood a chapel for prayers.
-The crown jewel of the edifice was the extensive and diverse library that contains the archive collection of the Russian Church in Israel to this day and also thousands of books and other titles that were donated by Price Konstantin. Currently the library is still active and contains over 17,000 titles. The building remains occupied by representatives of the Russian Church for more than 150 years, since its erection to this day. In this period of time the authority over the Land of Israel has changed hands several times, from Ottoman rule to the British mandate and finally the state of Israel. Part of the building houses today the regional court of Jerusalem.
+        info: `The building was constructed in order to host the members of the Russian Middle East Ecclesiastical Mission. It incorporated the offices that concentrated the activities in the Holy Land, Lebanon and Syria, dormitories and guest rooms for highly ranked guests and a library. The building’s configuration is in the form of four long two-story corridors in the middle of which stood a chapel for prayers.
+The crown jewel of the edifice was the extensive and diverse library that contains the archive collection of the Russian Church in Israel to this day and also thousands of books and other titles that were donated by Price Konstantin. Currently the library is still active and contains over 17,000 titles. The building has remained occupied by representatives of the Russian Church for more than 150 years, since its erection to this day. In this period of time the authority over the Land of Israel has changed hands several times, from Ottoman rule to the British mandate and finally the state of Israel. One part of the building houses today the regional court of Jerusalem and the other part still houses the Russian Church representatives.
 `,
       },
       {
@@ -242,12 +247,12 @@ The crown jewel of the edifice was the extensive and diverse library that contai
           width: "801px",
         },
         imageBox: elisTextbox,
-        info: `It was built in 1864 by the architect Martin Ivanovich Eppinger as a men’s hostel of one floor providing 300 beds and designed according to the Russian Renaissance style. Despite the big quantity of beds, during the pilgrimage period between October and April the hostel’s occupancy was full. Additional beds were being placed in the corridors and even tents were set up in order to host tens of pilgrims. The hostel is named after Elisheva, John the Baptist’s mother, who is called Elizabeta in Russian.`,
+        info: `It was built in 1864 by the architect Martin Ivanovich Eppinger as a men’s hostel of one floor providing 300 beds and designed according to the Russian Renaissance style. Despite the big quantity of beds, during the pilgrimage period between October and May the hostel’s occupancy was full. Additional beds were being placed in the corridors and even tents were set up in order to host tens of pilgrims. The hostel is named after Elisheva, John the Baptist’s mother, who is called Elizabeta in Russian.`,
       },
       {
         name: "mariaYard",
         waiteTime: 400,
-        title: "Hostel Maria",
+        title: "Maria's Courtyard",
         secTitle: `<b>Women’s Hostel named after Maria</b>`,
         cssForPosition: {
           position: "fixed",
@@ -268,7 +273,7 @@ The crown jewel of the edifice was the extensive and diverse library that contai
           width: "677px",
         },
         imageBox: mariaTextBox,
-        info: `The “Women Pilgrims’ Hostel” named after Maria Feodorvna, wife of Tsar Alexander III and mother of  the last Tsar Nikolai II. The building was planned by the “house architect” Martin Ivanovich Eppinger. It consists of two square edifices connected to each other; in the middle of each square there is a yard, in which the female pilgrims would do laundry and get warm under the sun, since the building’s thick walls caused the rooms to be especially cool.
+        info: `The “Women Pilgrims’ Hostel” named after Maria Feodorvna, wife of Tsar Alexander III and mother of  the last Tsar Nikolai II. The building was planned by the IOPS “house architect” Martin Ivanovich Eppinger. It consists of two square edifices connected to each other; in the middle of each square there is a yard, in which the female pilgrims would do laundry and get warm under the sun, since the building’s thick walls caused the rooms to be especially cold.
 The construction of the complex was completed in 1864 and, apart from the hostel and the yards, there were two kitchens in the complex that served hot simple meals. The guesthouse area was very basic and included big spaces that contained tens of beds.
 In the summer of 1914, during WWI, the complex was conquered by the German command; the monks, priests and the rest of the people of the church were allowed to return to their country of origin, while the female pilgrims were thrown to the streets in just in their nightgowns upon their skin. The women pilgrims’ hostel became a stable for the horses of the German corps, who fought side by side with the Ottomans. By the end of 1917, after Britain’s victory, the English set their headquarters on the grounds of the Russian Compound and converted Maria’s courtyard to a jail.
 
@@ -300,9 +305,9 @@ During the period of the British Mandate the place served as a detention center 
           width: "830px",
         },
         imageBox: trinityTextbox,
-        info: `One of the first buildings created by the Russian Empire as part of the little town that rose in Moscow square was the church of the Holy Trinity. It was planned by the architect Martin Ivanovich Eppinger as  a basilica including the nave with two long side aisles, a round arcade on the facade, and round rooms at the sides. The church, built using white stone, has eight towers and on top of each a dome; all eight domes were painted green for a long period of time but currently they have been coated with copper and crosses have been placed on top of them. The church bears great similarity to the Ascension Convent located in the Kremlin in Moscow.
+        info: `One of the first buildings created by the Russian Empire as part of the little town that rose in Moscow square was the church of the Holy Trinity. It was planned by the architect Martin Ivanovich Eppinger as a basilica including the nave with two long side aisles, a round arcade on the facade, and round rooms at the sides. The church, built using white stone, has eight towers and on top of each a dome; all eight domes were painted green for a long period of time but currently they have been coated with copper and crosses have been placed on top of them. The church bears great similarity to the Ascension Convent located in the Kremlin in Moscow.
 
-Initially the church was built for the use of the pilgrims hosted in one of the hostels of the Russian Compound. The assumption was that the pilgrims will prefer to have their important prayers in the historic churches in the old city. Therefore, the church is relatively not very big, and actually it is the smallest edifice as far as surface area is concerned out of all the constructions carried out in the Russian Compound. However, its height, position and luxurious style turn it into a remarkable edifice.`,
+Initially, the church was built for the use of the pilgrims hosted in one of the hostels of the Russian Compound. The assumption was that the pilgrims will prefer to have their important prayers in the historic churches in the old city. Therefore, the church is relatively not very big, and actually it is the smallest edifice as far as surface area is concerned out of all the constructions carried out in the Russian Compound. However, its height, position and luxurious style turn it into a remarkable edifice.`,
       },
       {
         name: "nicoYard",
@@ -328,7 +333,7 @@ Initially the church was built for the use of the pilgrims hosted in one of the 
           width: "765px",
         },
         imageBox: nicoTextbox,
-        info: `The last hostel for pilgrims built and the biggest one of all constructed in Jerusalem by the IOPS (Imperial Orthodox Palestine Society) and bears the name of Russia’s last Tsar, Nikolai II. The building was planned by the Saint-Peterburg architect Alexey Efimovich Elkin to contain 1,200 beds in three different levels of accommodation. The basic level cost 13 kupikas per night, the medium level cost 2 rubles per night and the prime level, intended for established people, cost 4 rubles per night.
+        info: `The last hostel for pilgrims built and the biggest one of all constructed in Jerusalem by the IOPS and bears the name of Russia’s last Tsar, Nikolai II. The building was planned by the Saint-Peterburg architect Alexey Efimovich Elkin to contain 1,200 beds in three different levels of accommodation. The basic level cost 13 kupikas per night, the medium level cost 2 rubles per night and the prime level, intended for established people, cost 4 rubles per night.
 The total construction cost of the courtyard added up to 432,000 francs (equivalent to 2.8 million euros today) which were donated by the IOPS.
 `,
       },
