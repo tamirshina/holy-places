@@ -9,7 +9,7 @@ import jerusalemVideo from "../assets/compound-screen/transition-russian-compoun
 import "../App.css";
 import JerusalemBox from "../fragments/JerusalemBox";
 
-function JerusalemPage({ moveToCompoundPage }) {
+function JerusalemPage({ moveToCompoundPage, homeBtnLogic }) {
   const { lang } = useContext(LangContext);
 
   function whichFileToUse() {

@@ -27,7 +27,8 @@ function JerusalemBox({
       if (JerusalemBoxRef) {
       }
     }, waiteTime);
-  }, [JerusalemBoxRef]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   function createMarkup(str) {
     return { __html: str };

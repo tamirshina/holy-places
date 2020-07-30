@@ -9,7 +9,7 @@ import jerusalemImg from "../assets/Screen-02/03-jerusalem.png";
 import "../App.css";
 import IsraelTextInserter from "../texthandling/IsreaelPageText";
 
-function IsraelPage({ playIsraelVideo }) {
+function IsraelPage({ playIsraelVideo, homeBtnLogic }) {
   const { lang } = useContext(LangContext);
   const jeruImg = useRef(null);
 
@@ -17,7 +17,8 @@ function IsraelPage({ playIsraelVideo }) {
     setTimeout(() => {
       jeruImg.current.classList.remove("hidden");
     }, 500);
-  }, [jeruImg]);
+    // eslint-disable-next-line
+  }, []);
 
   function whichFileToUse() {
     if (lang === "hebrew") {

@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { timer, removeTimer } from "./TimerHundler";
 import FrontPage from "./pages/FrontPage";
 import IsraelPage from "./pages/IsraelPage";
 import HomeBtn from "./fragments/HomeBtn";
@@ -15,6 +16,20 @@ function App() {
   const [isCompoundPage, setIsCompoundPage] = useState(false);
   const [showBtns, setShowBtns] = useState(true);
   const [showLngBtns, setShowLangBtns] = useState(true);
+
+  useEffect(() => {
+    window.addEventListener("click", resetTimer);
+
+    return () => {
+      window.removeEventListener("click", resetTimer);
+    };
+    // eslint-disable-next-line
+  }, []);
+
+  const resetTimer = () => {
+    removeTimer();
+    timer(homeBtnLogic);
+  };
 
   const homeBtnLogic = () => {
     setIstFrontPage(true);
@@ -102,11 +117,19 @@ function App() {
   return (
     <>
       {isFrontPage && <FrontPage playVideo={playVideo} />}
-      {isIsraelPage && <IsraelPage playIsraelVideo={playIsraelVideo} />}
-      {isJerusalemPage && (
-        <JerusalemPage moveToCompoundPage={moveToCompoundPage} />
+      {isIsraelPage && (
+        <IsraelPage
+          playIsraelVideo={playIsraelVideo}
+          homeBtnLogic={homeBtnLogic}
+        />
       )}
-      {isCompoundPage && <CompoundPage />}
+      {isJerusalemPage && (
+        <JerusalemPage
+          moveToCompoundPage={moveToCompoundPage}
+          homeBtnLogic={homeBtnLogic}
+        />
+      )}
+      {isCompoundPage && <CompoundPage homeBtnLogic={homeBtnLogic} />}
       {!isFrontPage && showBtns && <HomeBtn homeBtnLogic={homeBtnLogic} />}
       {!isFrontPage && !isIsraelPage && showBtns && (
         <BackBtn backBtnLogic={backBtnLogic} />

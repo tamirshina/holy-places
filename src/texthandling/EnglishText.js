@@ -1,5 +1,6 @@
-import alexBox from "../assets/text-boxses/Alexdner-textbox.png";
-import aliyahBox from "../assets/text-boxses/Aliyah-Church.png";
+import alexBox from "../assets/text-boxses/Alexdner-textbox-copy.png";
+import aliyahBox from "../assets/text-boxses/TextBox_ascension.png";
+import aliyahMariaBox from "../assets/text-boxses/Aliyah-Church-copy.png";
 import elisTextbox from "../assets/text-boxses/elisTextbox.png";
 import benjiBox from "../assets/text-boxses/02-textbox.png";
 import russianTextbox from "../assets/text-boxses/russianTextbox.png";
@@ -60,7 +61,7 @@ const englishText = {
         bottom: "96%",
         left: "13%",
       },
-      imageBox: aliyahBox,
+      imageBox: aliyahMariaBox,
       info: `Mary Magdalene is depicted in the New Testament as one of Jesus’ central supporters, and is known as the “apostle of the apostles” (apostola apostolorum). As written in the Gospels, she was one of the women that were present during Jesus’ crucifixion and resurrection.
 
 Upon the land that was bought in the name of Tsar Alexander III in 1882, the church that became the crown jewel of Russian presence in the Holy Land was erected. Even before the completion of the construction of the church, it was written that <i>“in this wonderful location there is a monument worthy of the royal family and Russia’s glory. The Catholic monks tear their robes out of jealousy”</i>.
@@ -113,13 +114,13 @@ Following the Bolshevik revolution in Russia, the Bolsheviks went after the roya
       },
       positonForTextBox: {
         position: "fixed",
-        top: "-2%",
-        left: "25%",
+        top: "6%",
+        left: "23%",
       },
       textStyle: {
         position: "relative",
-        bottom: "98%",
-        left: "12%",
+        bottom: "101%",
+        left: "18%",
       },
       imageBox: aliyahBox,
       info: `Among the ךocal population the church is known as Al-Moskobiya in the name of the pilgrims who built it, even though the central figures related to the deed came from other places in Russia. The pioneer and operator of this impressive church, as also of many other initiatives of the Russian Empire, is the Archim. Antonin Kapustin whose origins are from the province of Perm. The church commemorates the ascension of Jesus to the Heavens and in its center stands a bell tower 64 meters high. This bell, which weighs 5 tons, was ine of the first to sound in Jerusalem after hundreds of years that the Muslim authorities prohibited Christians to ring church bells.
