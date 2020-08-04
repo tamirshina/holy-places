@@ -152,6 +152,9 @@ Following the Bolshevik revolution in Russia, the Bolsheviks went after the roya
         bottom: "108%",
         left: "116%",
       },
+      extraStyle: {
+        height: "500px",
+      },
       imageBox: benjiBox,
       info: `Named after the Christian monk Benjamin who firstly arrived to Palestine in 1846 and, like others, fell in love with the Holy Land. During the Ottoman-Russian war he treated injured soldiers in the Ottoman front and for that he was awarded a medal of honor.
 In 1887, using funds he raised by himself, Benjamin opened a hostel in todays Neviim sreet. Contrary to the hostels of the IOPS which where open only during the pilgrimage season (October to May), Benjamin’s hostel accommodated pilgrims all year long.
@@ -189,6 +192,7 @@ Over the course of many years the building housed the NGO “Yad Sarah”.`,
         },
         extraStyle: {
           width: "1000px",
+          height: "300px",
         },
         imageBox: russianTextbox,
         info: `In 1857 the Ottomans were willing to sell to Russia a land plot of 68 square kilometers located adjacent to the old city walls to the west. The Tsar paid, as a matter of fact, for five sixths of the land value, and the remaining sixth was granted to him as a present by the Ottomans. This was an extraordinary move, because this plot is strategically positioned overlooking the old city; it is very close to the central Jaffa road, and compelled the Ottoman authorities to vacate the square that was used for celebrations, ceremonies and military parades. Actually, the Russian Compound was the first site with great proximity to the old city walls in which the Ottomans permitted constructions. The vision of Russian Palestine begins to materialize in a prime location of developing Jerusalem.
@@ -217,7 +221,7 @@ The plan was to create a kind of a small town that serves Russian pilgrims that 
         },
         extraStyle: {
           width: "660px",
-          height: "600px",
+          height: "450px",
         },
         imageBox: religiousMissionTextBox,
         info: `The building was constructed in order to host the members of the Russian Middle East Ecclesiastical Mission. It incorporated the offices that concentrated the activities in the Holy Land, Lebanon and Syria, dormitories and guest rooms for highly ranked guests and a library. The building’s configuration is in the form of four long two-story corridors in the middle of which stood a chapel for prayers.
@@ -327,7 +331,7 @@ Initially, the church was built for the use of the pilgrims hosted in one of the
         },
         textStyle: {
           position: "relative",
-          bottom: "100%",
+          bottom: "104%",
           left: "20%",
         },
         extraStyle: {
@@ -336,6 +340,38 @@ Initially, the church was built for the use of the pilgrims hosted in one of the
         imageBox: nicoTextbox,
         info: `The last hostel for pilgrims built and the biggest one of all constructed in Jerusalem by the IOPS and bears the name of Russia’s last Tsar, Nikolai II. The building was planned by the Saint-Peterburg architect Alexey Efimovich Elkin to contain 1,200 beds in three different levels of accommodation. The basic level cost 13 kupikas per night, the medium level cost 2 rubles per night and the prime level, intended for established people, cost 4 rubles per night.
 The total construction cost of the courtyard added up to 432,000 francs (equivalent to 2.8 million euros today) which were donated by the IOPS.
+`,
+      },
+      {
+        name: "sergiYard",
+        waiteTime: 600,
+        title: "Sergey’s Courtyard",
+        secTitle: `<b>Sergey’s Courtyard</b> `,
+        cssForPosition: {
+          position: "fixed",
+          top: "9%",
+          left: "14%",
+        },
+        positonForTextBox: {
+          position: "fixed",
+          top: "3%",
+          left: "20%",
+        },
+        textStyle: {
+          position: "relative",
+          bottom: "111%",
+          left: "117%",
+        },
+        extraStyle: {
+          height: "466px",
+          marginTop: "-11px",
+        },
+        imageBox: benjiBox,
+        info: `Sergey’s Courtyard is the apogee of the Russian pilgrims hostels in Jerusalem
+
+        The hostel in Sergey’s Courtyard can accommodate 418 guests and few selected rooms (25) are appropriated for guests specifically requesting convenience as the style of European hotels dictates.
+
+        During the beginning of the 20th century Sergey’s Courtyard was a vibrant and lively place, which was the epicenter of pilgrim life during their stay in Jerusalem. Until the outbreak of WWI the site hosted artist workshops, a stable, a firefighter station, a library, a garage, laundry facilities, two dining halls, a bakery, a banquet hall and more. The Courtyard provided a base for and hosted very distinguished guests alongside with professors, soldiers, sailors, priests and ordinary pilgrims.
 `,
       },
     ],
