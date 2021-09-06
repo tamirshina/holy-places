@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71325ca8b58aaca645b392f7484b07ae",
+    "revision": "32cc641666d9e9426a4d58558785e453",
     "url": "/holy-places/index.html"
   },
   {
-    "revision": "25fb8b0f9f736a430de2",
+    "revision": "3ad605a265cc67e7c37a",
     "url": "/holy-places/static/css/main.d2a6e8fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/holy-places/static/js/2.9a2bef0f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "25fb8b0f9f736a430de2",
-    "url": "/holy-places/static/js/main.5cc954d8.chunk.js"
+    "revision": "3ad605a265cc67e7c37a",
+    "url": "/holy-places/static/js/main.f5d91f3c.chunk.js"
   },
   {
     "revision": "a3adb367af31197665df",

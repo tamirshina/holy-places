@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/holy-places/precache-manifest.15a6eba7832b4d3a4e1f2fd116c809eb.js"
+  "/holy-places/precache-manifest.1be1017414d633005cb9df90ce258ca8.js"
 );
 
 self.addEventListener('message', (event) => {
