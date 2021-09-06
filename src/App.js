@@ -20,7 +20,7 @@ function App() {
   useEffect(() => {
     window.addEventListener("click", resetTimer);
     window.addEventListener("contextmenu", blockContextMenu);
-    portfolioMessage();
+
     return () => {
       window.removeEventListener("click", resetTimer);
     };
@@ -29,13 +29,6 @@ function App() {
 
   const blockContextMenu = (evt) => {
     evt.preventDefault();
-  };
-
-  const portfolioMessage = () => {
-    if (window.location.host === "tamirshina.github.io") {
-      alert("Hi! This site will work best only on regular size screen(1920×1080)\n and only on full screen mode, please open crome setting and switch to full screen, Thanks!");
-    }
-
   };
 
   const resetTimer = () => {
