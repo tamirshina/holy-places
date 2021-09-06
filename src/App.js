@@ -35,7 +35,7 @@ function App() {
     if (window.location.host === "tamirshina.github.io") {
       alert("Hi! This site will work best only on regular size screen(1920×1080)\n and only on full screen mode, please open crome setting and switch to full screen, Thanks!");
     }
-
+    //comment to push
   };
 
   const resetTimer = () => {
