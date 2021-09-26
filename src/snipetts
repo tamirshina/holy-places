@@ -1,5 +1,5 @@
 {
-      name: "russianSqure 6",
+      name: "russianSqure",
       waiteTime: 100,
       title: "Русское подворье",
       cssForPosition: {
