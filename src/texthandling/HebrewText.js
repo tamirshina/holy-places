@@ -11,7 +11,7 @@ import religiousMissionTextBox from "../assets/text-boxses/religiousMissionTextB
 const hebrewText = {
   id: "hebrewText",
   frontPage: {
-    title: " רצח מקומות קדושים",
+    title: " מקומות קדושים",
     openingParagraph: `
     בין השנים 1850 ועד 1917 האימפריה הרוסית והכנסייה הרוסית הקימו עשרות מבנים ברחבי המזרח התיכון בכלל ופלשתינה בפרט. בשנים אלו המהפכה התעשייתית והקדמה ששטפה את העולם המערבי מיאנה להגיע לאזורינו. 
     העם הרוסי בשנים הללו חש חיבור עמוק עם ארץ ישראל והמקומות הקדושים לנצרות שבה.
