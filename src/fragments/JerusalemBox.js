@@ -18,6 +18,7 @@ function JerusalemBox({
   const JerusalemBoxRef = useRef(null);
 
   useEffect(() => {
+    
     setTimeout(() => {
       try {
         JerusalemBoxRef.current.classList.remove("hidden");
